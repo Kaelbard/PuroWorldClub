@@ -1,4 +1,4 @@
-# Puro World CLub
+# Puro World Club
 
 A new Flutter project.
 
