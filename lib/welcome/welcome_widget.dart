@@ -36,7 +36,7 @@ class _WelcomeWidgetState extends State<WelcomeWidget> {
               'assets/images/Sem_Ttulo-1.png',
               width: double.infinity,
               height: double.infinity,
-              fit: BoxFit.cover,
+              fit: BoxFit.contain,
             ),
           ),
         ),
