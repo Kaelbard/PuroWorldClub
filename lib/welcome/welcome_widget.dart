@@ -1,6 +1,6 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
-import '../home_page/home_page_widget.dart';
+import '../home_page_copy_copy/home_page_copy_copy_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -28,14 +28,14 @@ class _WelcomeWidgetState extends State<WelcomeWidget> {
               await Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => HomePageWidget(),
+                  builder: (context) => HomePageCopyCopyWidget(),
                 ),
               );
             },
             child: Image.asset(
               'assets/images/Sem_Ttulo-1.png',
-              width: 375,
-              height: 812,
+              width: double.infinity,
+              height: double.infinity,
               fit: BoxFit.cover,
             ),
           ),

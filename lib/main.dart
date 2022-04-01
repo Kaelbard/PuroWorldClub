@@ -58,7 +58,7 @@ class _MyAppState extends State<MyApp> {
               color: Colors.black,
               child: Builder(
                 builder: (context) => Image.asset(
-                  'assets/images/logo_pricipal02-1-1024x572.png',
+                  'assets/images/logo_fundo_claro2-1.png',
                   fit: BoxFit.contain,
                 ),
               ),

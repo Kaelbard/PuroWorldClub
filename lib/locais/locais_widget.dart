@@ -1,10 +1,9 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import 'package:auto_size_text/auto_size_text.dart';
-import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class LocaisWidget extends StatefulWidget {
   const LocaisWidget({Key key}) : super(key: key);
@@ -14,6 +13,7 @@ class LocaisWidget extends StatefulWidget {
 }
 
 class _LocaisWidgetState extends State<LocaisWidget> {
+  PageController pageViewController;
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -26,7 +26,7 @@ class _LocaisWidgetState extends State<LocaisWidget> {
         title: Align(
           alignment: AlignmentDirectional(-1, 0),
           child: Text(
-            'Locais',
+            'Onde estamos',
             style: FlutterFlowTheme.of(context).title2.override(
                   fontFamily: 'Poppins',
                   color: Colors.white,
@@ -38,161 +38,191 @@ class _LocaisWidgetState extends State<LocaisWidget> {
         centerTitle: false,
         elevation: 2,
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: Color(0xFF192A4D),
       body: SafeArea(
         child: GestureDetector(
           onTap: () => FocusScope.of(context).unfocus(),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Align(
-                alignment: AlignmentDirectional(0, -1),
-                child: Column(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    ListView(
-                      padding: EdgeInsets.zero,
-                      shrinkWrap: true,
-                      scrollDirection: Axis.vertical,
+          child: Container(
+            width: double.infinity,
+            height: double.infinity,
+            decoration: BoxDecoration(
+              color: Color(0xFF192A4D),
+            ),
+            child: Container(
+              width: double.infinity,
+              height: 500,
+              child: Stack(
+                children: [
+                  Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 50),
+                    child: PageView(
+                      controller: pageViewController ??=
+                          PageController(initialPage: 0),
+                      scrollDirection: Axis.horizontal,
                       children: [
-                        Align(
-                          alignment: AlignmentDirectional(0, 0),
-                          child: Container(
-                            width: 360,
-                            height: 300,
-                            decoration: BoxDecoration(
-                              color: Colors.black,
-                            ),
-                            child: Align(
-                              alignment: AlignmentDirectional(0, 0),
-                              child: ListView(
-                                padding: EdgeInsets.zero,
-                                scrollDirection: Axis.vertical,
+                        Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [
+                            Container(
+                              width: double.infinity,
+                              height: 800,
+                              decoration: BoxDecoration(
+                                color: Color(0xFF192A4D),
+                              ),
+                              child: Column(
+                                mainAxisSize: MainAxisSize.max,
                                 children: [
-                                  Container(
-                                    width: 350,
-                                    height: 200,
-                                    decoration: BoxDecoration(
-                                      color: Colors.black,
-                                    ),
-                                    child: Container(
-                                      width: double.infinity,
-                                      color: Colors.black,
-                                      child: ExpandableNotifier(
-                                        initialExpanded: false,
-                                        child: ExpandablePanel(
-                                          header: Text(
-                                            'Rooftop do Soho, Pontão Lago Sul',
-                                            textAlign: TextAlign.end,
-                                            style: FlutterFlowTheme.of(context)
-                                                .title1
-                                                .override(
-                                                  fontFamily: 'Poppins',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryBtnText,
-                                                  fontSize: 18,
-                                                ),
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0, 20, 0, 0),
+                                    child: Material(
+                                      color: Colors.transparent,
+                                      elevation: 0,
+                                      shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(10),
+                                      ),
+                                      child: Container(
+                                        width: 370,
+                                        height: 680,
+                                        decoration: BoxDecoration(
+                                          color: Color(0xFFEEEEEE),
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/SohoPuro!.png',
+                                            ).image,
                                           ),
-                                          collapsed: Container(
-                                            width: MediaQuery.of(context)
-                                                .size
-                                                .width,
-                                            height: 40,
-                                            decoration: BoxDecoration(
-                                              color: Colors.black,
-                                            ),
-                                            child: Align(
-                                              alignment:
-                                                  AlignmentDirectional(0, 0),
-                                              child: FFButtonWidget(
-                                                onPressed: () async {
-                                                  await launchURL(
-                                                      'https://goo.gl/maps/tB5126RPqgX5U4Cm7');
-                                                },
-                                                text: 'Como chegar',
-                                                options: FFButtonOptions(
-                                                  width: 150,
-                                                  height: 40,
-                                                  color: Color(0xFF5F4621),
-                                                  textStyle: FlutterFlowTheme
-                                                          .of(context)
-                                                      .subtitle2
-                                                      .override(
-                                                        fontFamily: 'Poppins',
-                                                        color: Colors.white,
-                                                      ),
-                                                  borderSide: BorderSide(
-                                                    color: Colors.transparent,
-                                                    width: 1,
-                                                  ),
-                                                  borderRadius: 5,
-                                                ),
-                                              ),
-                                            ),
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                          border: Border.all(
+                                            width: 0,
                                           ),
-                                          expanded: Column(
-                                            mainAxisSize: MainAxisSize.max,
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.center,
-                                            children: [
-                                              Align(
-                                                alignment:
-                                                    AlignmentDirectional(0, 0),
-                                                child: AutoSizeText(
-                                                  'Local aconchegante, beira lago para desfrutar dessa experiência na melhor companhia e vista de Brasília.\n\nSt. de Habitações Individuais Sul Lote 22 - Lago Sul, Brasília - DF, 71630-015',
-                                                  textAlign: TextAlign.start,
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyText1
-                                                      .override(
-                                                        fontFamily: 'Poppins',
-                                                        color:
+                                        ),
+                                        child: Column(
+                                          mainAxisSize: MainAxisSize.max,
+                                          children: [
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              children: [
+                                                Row(
+                                                  mainAxisSize:
+                                                      MainAxisSize.max,
+                                                  children: [
+                                                    Padding(
+                                                      padding:
+                                                          EdgeInsetsDirectional
+                                                              .fromSTEB(15, 10,
+                                                                  15, 0),
+                                                      child: Text(
+                                                        'Rooftop do SOHO, Pontão Lago Sul',
+                                                        style:
                                                             FlutterFlowTheme.of(
                                                                     context)
-                                                                .primaryBtnText,
+                                                                .bodyText1
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Montserrat',
+                                                                  color: FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .primaryBtnText,
+                                                                  fontSize: 18,
+                                                                ),
                                                       ),
+                                                    ),
+                                                  ],
                                                 ),
-                                              ),
-                                              Align(
-                                                alignment:
-                                                    AlignmentDirectional(0, 0),
-                                                child: Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(0, 4, 0, 0),
-                                                  child: Image.asset(
-                                                    'assets/images/pontao_puro_brasilia_club.png',
-                                                    width:
-                                                        MediaQuery.of(context)
-                                                            .size
-                                                            .width,
-                                                    fit: BoxFit.cover,
+                                                Row(
+                                                  mainAxisSize:
+                                                      MainAxisSize.max,
+                                                  children: [
+                                                    Expanded(
+                                                      child: Padding(
+                                                        padding:
+                                                            EdgeInsetsDirectional
+                                                                .fromSTEB(20, 0,
+                                                                    20, 0),
+                                                        child: Text(
+                                                          'St. de Habitações Individuais Sul Lote 22 - Lago Sul, Brasília - DF, 71630-015',
+                                                          style: FlutterFlowTheme
+                                                                  .of(context)
+                                                              .bodyText1
+                                                              .override(
+                                                                fontFamily:
+                                                                    'Montserrat',
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .primaryBtnText,
+                                                                fontSize: 18,
+                                                              ),
+                                                        ),
+                                                      ),
+                                                    ),
+                                                  ],
+                                                ),
+                                                InkWell(
+                                                  onTap: () async {
+                                                    await launchURL(
+                                                        'https://www.instagram.com/sohobrasilia/');
+                                                  },
+                                                  child: Row(
+                                                    mainAxisSize:
+                                                        MainAxisSize.max,
+                                                    children: [
+                                                      Expanded(
+                                                        child: Align(
+                                                          alignment:
+                                                              AlignmentDirectional(
+                                                                  0, 0),
+                                                          child: Padding(
+                                                            padding:
+                                                                EdgeInsetsDirectional
+                                                                    .fromSTEB(
+                                                                        200,
+                                                                        538,
+                                                                        0,
+                                                                        0),
+                                                            child:
+                                                                FFButtonWidget(
+                                                              onPressed:
+                                                                  () async {
+                                                                await launchURL(
+                                                                    'https://goo.gl/maps/Y1DtwQEzfzo99S15A');
+                                                              },
+                                                              text:
+                                                                  'Como chegar',
+                                                              options:
+                                                                  FFButtonOptions(
+                                                                width: 150,
+                                                                height: 30,
+                                                                color: Color(
+                                                                    0xFFB5863F),
+                                                                textStyle: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .subtitle2
+                                                                    .override(
+                                                                      fontFamily:
+                                                                          'Poppins',
+                                                                      color: Colors
+                                                                          .white,
+                                                                    ),
+                                                                borderSide:
+                                                                    BorderSide(
+                                                                  color: Colors
+                                                                      .transparent,
+                                                                  width: 1,
+                                                                ),
+                                                                borderRadius: 5,
+                                                              ),
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
                                                   ),
                                                 ),
-                                              ),
-                                              Image.asset(
-                                                'assets/images/logo_soho.png',
-                                                width: MediaQuery.of(context)
-                                                        .size
-                                                        .width *
-                                                    0.6,
-                                                fit: BoxFit.cover,
-                                              ),
-                                            ],
-                                          ),
-                                          theme: ExpandableThemeData(
-                                            tapHeaderToExpand: true,
-                                            tapBodyToExpand: false,
-                                            tapBodyToCollapse: false,
-                                            headerAlignment:
-                                                ExpandablePanelHeaderAlignment
-                                                    .center,
-                                            hasIcon: true,
-                                            iconColor:
-                                                FlutterFlowTheme.of(context)
-                                                    .primaryBtnText,
-                                          ),
+                                              ],
+                                            ),
+                                          ],
                                         ),
                                       ),
                                     ),
@@ -200,25 +230,78 @@ class _LocaisWidgetState extends State<LocaisWidget> {
                                 ],
                               ),
                             ),
+                          ],
+                        ),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          decoration: BoxDecoration(
+                            color: Color(0xFF192A4D),
+                            image: DecorationImage(
+                              fit: BoxFit.contain,
+                              image: Image.asset(
+                                'assets/images/logo_fundo_claro2-1.png',
+                              ).image,
+                            ),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Expanded(
+                                child: Align(
+                                  alignment: AlignmentDirectional(0, 0.35),
+                                  child: Text(
+                                    'Em breve perto de você',
+                                    textAlign: TextAlign.center,
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'Montserrat',
+                                          color: FlutterFlowTheme.of(context)
+                                              .primaryBtnText,
+                                          fontSize: 25,
+                                        ),
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
                     ),
-                  ],
-                ),
-              ),
-              Expanded(
-                child: Align(
-                  alignment: AlignmentDirectional(0, 0.8),
-                  child: Image.asset(
-                    'assets/images/logo_pricipal02-1-1024x572.png',
-                    width: double.infinity,
-                    height: 200,
-                    fit: BoxFit.scaleDown,
                   ),
-                ),
+                  Align(
+                    alignment: AlignmentDirectional(0, 0.95),
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                      child: SmoothPageIndicator(
+                        controller: pageViewController ??=
+                            PageController(initialPage: 0),
+                        count: 2,
+                        axisDirection: Axis.horizontal,
+                        onDotClicked: (i) {
+                          pageViewController.animateToPage(
+                            i,
+                            duration: Duration(milliseconds: 500),
+                            curve: Curves.ease,
+                          );
+                        },
+                        effect: ExpandingDotsEffect(
+                          expansionFactor: 2,
+                          spacing: 8,
+                          radius: 16,
+                          dotWidth: 16,
+                          dotHeight: 16,
+                          dotColor: FlutterFlowTheme.of(context).primaryBtnText,
+                          activeDotColor: Color(0xFF5F4621),
+                          paintStyle: PaintingStyle.fill,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
-            ],
+            ),
           ),
         ),
       ),
