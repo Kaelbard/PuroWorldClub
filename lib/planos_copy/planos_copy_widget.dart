@@ -21,12 +21,12 @@ class _PlanosCopyWidgetState extends State<PlanosCopyWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: Color(0xFF5F4621),
         automaticallyImplyLeading: false,
         title: Text(
           'Escolha sua Experiência',
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: 'Montserrat',
                 color: Colors.white,
                 fontSize: 22,
               ),
@@ -328,9 +328,7 @@ class _PlanosCopyWidgetState extends State<PlanosCopyWidget> {
                                                                                                     width: 130,
                                                                                                     height: 50,
                                                                                                     color: Color(0xFFCCA83E),
-                                                                                                    textStyle: FlutterFlowTheme.of(context).title1.override(
-                                                                                                          fontFamily: 'Montserrat',
-                                                                                                        ),
+                                                                                                    textStyle: FlutterFlowTheme.of(context).title1,
                                                                                                     elevation: 2,
                                                                                                     borderSide: BorderSide(
                                                                                                       color: Colors.transparent,
@@ -488,9 +486,7 @@ class _PlanosCopyWidgetState extends State<PlanosCopyWidget> {
                                                                                                   width: 130,
                                                                                                   height: 50,
                                                                                                   color: Color(0xFFCCA83E),
-                                                                                                  textStyle: FlutterFlowTheme.of(context).title1.override(
-                                                                                                        fontFamily: 'Montserrat',
-                                                                                                      ),
+                                                                                                  textStyle: FlutterFlowTheme.of(context).title1,
                                                                                                   elevation: 2,
                                                                                                   borderSide: BorderSide(
                                                                                                     color: Colors.transparent,
@@ -752,9 +748,7 @@ class _PlanosCopyWidgetState extends State<PlanosCopyWidget> {
                                                                                                   width: 130,
                                                                                                   height: 50,
                                                                                                   color: Color(0xFFCCA83E),
-                                                                                                  textStyle: FlutterFlowTheme.of(context).title1.override(
-                                                                                                        fontFamily: 'Montserrat',
-                                                                                                      ),
+                                                                                                  textStyle: FlutterFlowTheme.of(context).title1,
                                                                                                   elevation: 2,
                                                                                                   borderSide: BorderSide(
                                                                                                     color: Colors.transparent,
@@ -912,9 +906,7 @@ class _PlanosCopyWidgetState extends State<PlanosCopyWidget> {
                                                                                                   width: 130,
                                                                                                   height: 50,
                                                                                                   color: Color(0xFFCCA83E),
-                                                                                                  textStyle: FlutterFlowTheme.of(context).title1.override(
-                                                                                                        fontFamily: 'Montserrat',
-                                                                                                      ),
+                                                                                                  textStyle: FlutterFlowTheme.of(context).title1,
                                                                                                   elevation: 2,
                                                                                                   borderSide: BorderSide(
                                                                                                     color: Colors.transparent,
@@ -1176,9 +1168,7 @@ class _PlanosCopyWidgetState extends State<PlanosCopyWidget> {
                                                                                                   width: 130,
                                                                                                   height: 50,
                                                                                                   color: Color(0xFFCCA83E),
-                                                                                                  textStyle: FlutterFlowTheme.of(context).title1.override(
-                                                                                                        fontFamily: 'Montserrat',
-                                                                                                      ),
+                                                                                                  textStyle: FlutterFlowTheme.of(context).title1,
                                                                                                   elevation: 2,
                                                                                                   borderSide: BorderSide(
                                                                                                     color: Colors.transparent,
@@ -1336,9 +1326,7 @@ class _PlanosCopyWidgetState extends State<PlanosCopyWidget> {
                                                                                                   width: 130,
                                                                                                   height: 50,
                                                                                                   color: Color(0xFFCCA83E),
-                                                                                                  textStyle: FlutterFlowTheme.of(context).title1.override(
-                                                                                                        fontFamily: 'Montserrat',
-                                                                                                      ),
+                                                                                                  textStyle: FlutterFlowTheme.of(context).title1,
                                                                                                   elevation: 2,
                                                                                                   borderSide: BorderSide(
                                                                                                     color: Colors.transparent,
@@ -1406,7 +1394,7 @@ class _PlanosCopyWidgetState extends State<PlanosCopyWidget> {
                                                         dotWidth: 16,
                                                         dotHeight: 16,
                                                         dotColor:
-                                                            Color(0xFF9E9E9E),
+                                                            Color(0xFFB5863F),
                                                         activeDotColor:
                                                             Color(0xFF5F4621),
                                                         paintStyle:

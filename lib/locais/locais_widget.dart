@@ -21,14 +21,14 @@ class _LocaisWidgetState extends State<LocaisWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: FlutterFlowTheme.of(context).tertiaryColor,
         automaticallyImplyLeading: false,
         title: Align(
           alignment: AlignmentDirectional(-1, 0),
           child: Text(
             'Onde estamos',
             style: FlutterFlowTheme.of(context).title2.override(
-                  fontFamily: 'Poppins',
+                  fontFamily: 'Montserrat',
                   color: Colors.white,
                   fontSize: 22,
                 ),
@@ -201,7 +201,7 @@ class _LocaisWidgetState extends State<LocaisWidget> {
                                                                     .subtitle2
                                                                     .override(
                                                                       fontFamily:
-                                                                          'Poppins',
+                                                                          'Montserrat',
                                                                       color: Colors
                                                                           .white,
                                                                     ),
@@ -292,7 +292,7 @@ class _LocaisWidgetState extends State<LocaisWidget> {
                           radius: 16,
                           dotWidth: 16,
                           dotHeight: 16,
-                          dotColor: FlutterFlowTheme.of(context).primaryBtnText,
+                          dotColor: Color(0xFFB5863F),
                           activeDotColor: Color(0xFF5F4621),
                           paintStyle: PaintingStyle.fill,
                         ),

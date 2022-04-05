@@ -20,12 +20,12 @@ class _SobreWidgetState extends State<SobreWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: FlutterFlowTheme.of(context).tertiaryColor,
         automaticallyImplyLeading: false,
         title: Text(
           'Quem Somos',
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: 'Montserrat',
                 color: Colors.white,
                 fontSize: 22,
               ),
@@ -133,7 +133,7 @@ class _SobreWidgetState extends State<SobreWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Poppins',
+                                      fontFamily: 'Montserrat',
                                       color: FlutterFlowTheme.of(context)
                                           .primaryBtnText,
                                       fontSize: 12,
@@ -176,7 +176,7 @@ class _SobreWidgetState extends State<SobreWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Poppins',
+                                      fontFamily: 'Montserrat',
                                       color: FlutterFlowTheme.of(context)
                                           .primaryBtnText,
                                       fontSize: 12,
@@ -219,7 +219,7 @@ class _SobreWidgetState extends State<SobreWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Poppins',
+                                      fontFamily: 'Montserrat',
                                       color: FlutterFlowTheme.of(context)
                                           .primaryBtnText,
                                       fontSize: 12,
@@ -254,7 +254,7 @@ class _SobreWidgetState extends State<SobreWidget> {
                             color: Color(0xFF5F4621),
                             textStyle:
                                 FlutterFlowTheme.of(context).subtitle2.override(
-                                      fontFamily: 'Poppins',
+                                      fontFamily: 'Montserrat',
                                       color: Colors.white,
                                       fontWeight: FontWeight.w600,
                                     ),

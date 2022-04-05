@@ -20,14 +20,14 @@ class _ParceirosWidgetState extends State<ParceirosWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: Color(0xFF5F4621),
         automaticallyImplyLeading: false,
         title: Align(
           alignment: AlignmentDirectional(-1, 0),
           child: Text(
-            'Parceiros',
+            'Credenciados',
             style: FlutterFlowTheme.of(context).title2.override(
-                  fontFamily: 'Poppins',
+                  fontFamily: 'Montserrat',
                   color: Colors.white,
                   fontSize: 22,
                 ),

@@ -1,3 +1,4 @@
+import '../cartade_puros/cartade_puros_widget.dart';
 import '../flutter_flow/flutter_flow_animations.dart';
 import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
@@ -154,7 +155,7 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(100),
         child: AppBar(
-          backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+          backgroundColor: Colors.black,
           automaticallyImplyLeading: false,
           flexibleSpace: Align(
             alignment: AlignmentDirectional(0.05, 0.55),
@@ -602,8 +603,13 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
                                               .parent as AnimationController)
                                           .forward(from: 0.0),
                                     );
-                                    await launchURL(
-                                        'https://puroworldclub.com/carta_de_puros/');
+                                    await Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            CartadePurosWidget(),
+                                      ),
+                                    );
                                   },
                                   child: Container(
                                     width: 90,

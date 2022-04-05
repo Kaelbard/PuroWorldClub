@@ -19,43 +19,43 @@ abstract class FlutterFlowTheme {
   Color lineColor;
 
   TextStyle get title1 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 24,
       );
   TextStyle get title2 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: secondaryText,
         fontWeight: FontWeight.w600,
         fontSize: 22,
       );
   TextStyle get title3 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 20,
       );
   TextStyle get subtitle1 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 18,
       );
   TextStyle get subtitle2 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: secondaryText,
         fontWeight: FontWeight.w600,
         fontSize: 16,
       );
   TextStyle get bodyText1 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 14,
       );
   TextStyle get bodyText2 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: secondaryText,
         fontWeight: FontWeight.w600,
         fontSize: 14,
@@ -64,11 +64,11 @@ abstract class FlutterFlowTheme {
 
 class LightModeTheme extends FlutterFlowTheme {
   Color primaryColor = const Color(0xFF000000);
-  Color secondaryColor = const Color(0xFF39D2C0);
-  Color tertiaryColor = const Color(0xFFEE8B60);
+  Color secondaryColor = const Color(0xFFB5863F);
+  Color tertiaryColor = const Color(0xFF5F4621);
   Color alternate = const Color(0xFFFF5963);
-  Color primaryBackground = const Color(0xFFF1F4F8);
-  Color secondaryBackground = const Color(0xFFFFFFFF);
+  Color primaryBackground = const Color(0xFF192A4D);
+  Color secondaryBackground = const Color(0xFF000000);
   Color primaryText = const Color(0xFF101213);
   Color secondaryText = const Color(0xFF57636C);
 
