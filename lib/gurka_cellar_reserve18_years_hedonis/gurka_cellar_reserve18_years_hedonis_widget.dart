@@ -3,6 +3,7 @@ import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import '../republica_d/republica_d_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class GurkaCellarReserve18YearsHedonisWidget extends StatefulWidget {
@@ -16,6 +17,15 @@ class GurkaCellarReserve18YearsHedonisWidget extends StatefulWidget {
 class _GurkaCellarReserve18YearsHedonisWidgetState
     extends State<GurkaCellarReserve18YearsHedonisWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  @override
+  void initState() {
+    super.initState();
+    // On page load action.
+    SchedulerBinding.instance.addPostFrameCallback((_) async {
+      Navigator.pop(context);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {

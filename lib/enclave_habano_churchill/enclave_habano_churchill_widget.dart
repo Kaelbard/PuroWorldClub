@@ -1,4 +1,3 @@
-import '../cartade_puros/cartade_puros_widget.dart';
 import '../enclave/enclave_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
@@ -28,12 +27,7 @@ class _EnclaveHabanoChurchillWidgetState
         automaticallyImplyLeading: false,
         leading: InkWell(
           onTap: () async {
-            await Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => CartadePurosWidget(),
-              ),
-            );
+            Navigator.pop(context);
           },
           child: Icon(
             Icons.chevron_left_rounded,

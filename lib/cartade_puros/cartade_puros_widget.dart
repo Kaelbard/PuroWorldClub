@@ -8,9 +8,11 @@ import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../gurka_cellar/gurka_cellar_widget.dart';
 import '../home_page_copy_copy/home_page_copy_copy_widget.dart';
+import '../honduras/honduras_widget.dart';
 import '../joyade_nicaragua/joyade_nicaragua_widget.dart';
 import '../nicaragua/nicaragua_widget.dart';
 import '../oliva/oliva_widget.dart';
+import '../perla_del_mar/perla_del_mar_widget.dart';
 import '../quorum/quorum_widget.dart';
 import '../republica_d/republica_d_widget.dart';
 import '../vega_fina/vega_fina_widget.dart';
@@ -467,65 +469,78 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                 borderRadius:
                                                     BorderRadius.circular(10),
                                               ),
-                                              child: Row(
-                                                mainAxisSize: MainAxisSize.max,
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.end,
-                                                children: [
-                                                  Expanded(
-                                                    child: Container(
-                                                      width: 100,
-                                                      height: 30,
-                                                      decoration: BoxDecoration(
-                                                        color:
-                                                            Color(0xFF5F4621),
-                                                        boxShadow: [
-                                                          BoxShadow(
-                                                            color: Color(
-                                                                0xFF0B4263),
-                                                          )
-                                                        ],
-                                                        borderRadius:
-                                                            BorderRadius.only(
-                                                          bottomLeft:
-                                                              Radius.circular(
-                                                                  10),
-                                                          bottomRight:
-                                                              Radius.circular(
-                                                                  10),
-                                                          topLeft:
-                                                              Radius.circular(
-                                                                  0),
-                                                          topRight:
-                                                              Radius.circular(
-                                                                  0),
+                                              child: InkWell(
+                                                onTap: () async {
+                                                  await Navigator.push(
+                                                    context,
+                                                    MaterialPageRoute(
+                                                      builder: (context) =>
+                                                          HondurasWidget(),
+                                                    ),
+                                                  );
+                                                },
+                                                child: Row(
+                                                  mainAxisSize:
+                                                      MainAxisSize.max,
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.end,
+                                                  children: [
+                                                    Expanded(
+                                                      child: Container(
+                                                        width: 100,
+                                                        height: 30,
+                                                        decoration:
+                                                            BoxDecoration(
+                                                          color:
+                                                              Color(0xFF5F4621),
+                                                          boxShadow: [
+                                                            BoxShadow(
+                                                              color: Color(
+                                                                  0xFF0B4263),
+                                                            )
+                                                          ],
+                                                          borderRadius:
+                                                              BorderRadius.only(
+                                                            bottomLeft:
+                                                                Radius.circular(
+                                                                    10),
+                                                            bottomRight:
+                                                                Radius.circular(
+                                                                    10),
+                                                            topLeft:
+                                                                Radius.circular(
+                                                                    0),
+                                                            topRight:
+                                                                Radius.circular(
+                                                                    0),
+                                                          ),
                                                         ),
-                                                      ),
-                                                      child: Padding(
-                                                        padding:
-                                                            EdgeInsetsDirectional
-                                                                .fromSTEB(
-                                                                    0, 6, 0, 0),
-                                                        child: Text(
-                                                          'Honduras',
-                                                          textAlign:
-                                                              TextAlign.center,
-                                                          style: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .bodyText1
-                                                              .override(
-                                                                fontFamily:
-                                                                    'Montserrat',
-                                                                color: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .primaryBtnText,
-                                                                fontSize: 13,
-                                                              ),
+                                                        child: Padding(
+                                                          padding:
+                                                              EdgeInsetsDirectional
+                                                                  .fromSTEB(0,
+                                                                      6, 0, 0),
+                                                          child: Text(
+                                                            'Honduras',
+                                                            textAlign: TextAlign
+                                                                .center,
+                                                            style: FlutterFlowTheme
+                                                                    .of(context)
+                                                                .bodyText1
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Montserrat',
+                                                                  color: FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .primaryBtnText,
+                                                                  fontSize: 13,
+                                                                ),
+                                                          ),
                                                         ),
                                                       ),
                                                     ),
-                                                  ),
-                                                ],
+                                                  ],
+                                                ),
                                               ),
                                             ),
                                           ).animated([
@@ -674,7 +689,7 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   context,
                                                   MaterialPageRoute(
                                                     builder: (context) =>
-                                                        GurkaCellarWidget(),
+                                                        DonDiegoWidget(),
                                                   ),
                                                 );
                                               },
@@ -693,16 +708,13 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                     image: DecorationImage(
                                                       fit: BoxFit.contain,
                                                       image: Image.asset(
-                                                        'assets/images/Gurkha_Cigars_Logo.png',
+                                                        'assets/images/DonDiego.png',
                                                       ).image,
                                                     ),
                                                     borderRadius:
                                                         BorderRadius.circular(
                                                             10),
                                                   ),
-                                                  alignment:
-                                                      AlignmentDirectional(
-                                                          0, 0),
                                                 ),
                                               ),
                                             ),
@@ -712,7 +724,7 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   context,
                                                   MaterialPageRoute(
                                                     builder: (context) =>
-                                                        VegaFinaWidget(),
+                                                        EnclaveWidget(),
                                                   ),
                                                 );
                                               },
@@ -731,7 +743,7 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                     image: DecorationImage(
                                                       fit: BoxFit.contain,
                                                       image: Image.asset(
-                                                        'assets/images/1597934589730-AUSA_VegaFina1998_logo_700x700.png',
+                                                        'assets/images/AJ-Fernandez-Enclave-logo.png',
                                                       ).image,
                                                     ),
                                                     borderRadius:
@@ -773,6 +785,44 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                         BorderRadius.circular(
                                                             10),
                                                   ),
+                                                ),
+                                              ),
+                                            ),
+                                            InkWell(
+                                              onTap: () async {
+                                                await Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(
+                                                    builder: (context) =>
+                                                        GurkaCellarWidget(),
+                                                  ),
+                                                );
+                                              },
+                                              child: Material(
+                                                color: Colors.transparent,
+                                                elevation: 2,
+                                                shape: RoundedRectangleBorder(
+                                                  borderRadius:
+                                                      BorderRadius.circular(10),
+                                                ),
+                                                child: Container(
+                                                  width: 100,
+                                                  height: 100,
+                                                  decoration: BoxDecoration(
+                                                    color: Color(0xFF081C44),
+                                                    image: DecorationImage(
+                                                      fit: BoxFit.contain,
+                                                      image: Image.asset(
+                                                        'assets/images/Gurkha_Cigars_Logo.png',
+                                                      ).image,
+                                                    ),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            10),
+                                                  ),
+                                                  alignment:
+                                                      AlignmentDirectional(
+                                                          0, 0),
                                                 ),
                                               ),
                                             ),
@@ -846,36 +896,13 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                 ),
                                               ),
                                             ),
-                                            Material(
-                                              color: Colors.transparent,
-                                              elevation: 2,
-                                              shape: RoundedRectangleBorder(
-                                                borderRadius:
-                                                    BorderRadius.circular(10),
-                                              ),
-                                              child: Container(
-                                                width: 100,
-                                                height: 100,
-                                                decoration: BoxDecoration(
-                                                  color: Color(0xFF081C44),
-                                                  image: DecorationImage(
-                                                    fit: BoxFit.contain,
-                                                    image: Image.asset(
-                                                      'assets/images/PDM.png',
-                                                    ).image,
-                                                  ),
-                                                  borderRadius:
-                                                      BorderRadius.circular(10),
-                                                ),
-                                              ),
-                                            ),
                                             InkWell(
                                               onTap: () async {
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
                                                     builder: (context) =>
-                                                        EnclaveWidget(),
+                                                        PerlaDelMarWidget(),
                                                   ),
                                                 );
                                               },
@@ -894,7 +921,7 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                     image: DecorationImage(
                                                       fit: BoxFit.contain,
                                                       image: Image.asset(
-                                                        'assets/images/AJ-Fernandez-Enclave-logo.png',
+                                                        'assets/images/PDM.png',
                                                       ).image,
                                                     ),
                                                     borderRadius:
@@ -939,28 +966,13 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                 ),
                                               ),
                                             ),
-                                            Container(
-                                              width: double.infinity,
-                                              height: double.infinity,
-                                              decoration: BoxDecoration(
-                                                color: Color(0xFF081C44),
-                                                image: DecorationImage(
-                                                  fit: BoxFit.cover,
-                                                  image: Image.asset(
-                                                    'assets/images/melo.png',
-                                                  ).image,
-                                                ),
-                                                borderRadius:
-                                                    BorderRadius.circular(10),
-                                              ),
-                                            ),
                                             InkWell(
                                               onTap: () async {
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
                                                     builder: (context) =>
-                                                        DonDiegoWidget(),
+                                                        VegaFinaWidget(),
                                                   ),
                                                 );
                                               },
@@ -979,7 +991,7 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                     image: DecorationImage(
                                                       fit: BoxFit.contain,
                                                       image: Image.asset(
-                                                        'assets/images/DonDiego.png',
+                                                        'assets/images/1597934589730-AUSA_VegaFina1998_logo_700x700.png',
                                                       ).image,
                                                     ),
                                                     borderRadius:
@@ -989,19 +1001,46 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                 ),
                                               ),
                                             ),
-                                            Container(
-                                              width: 100,
-                                              height: 100,
-                                              decoration: BoxDecoration(
-                                                color: Color(0xFF081C44),
-                                                image: DecorationImage(
-                                                  fit: BoxFit.cover,
-                                                  image: Image.asset(
-                                                    'assets/images/Lafama.png',
-                                                  ).image,
+                                            InkWell(
+                                              onTap: () async {
+                                                await launchURL(
+                                                    'https://www.instagram.com/melocigars/');
+                                              },
+                                              child: Container(
+                                                width: double.infinity,
+                                                height: double.infinity,
+                                                decoration: BoxDecoration(
+                                                  color: Color(0xFF081C44),
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image: Image.asset(
+                                                      'assets/images/melo.png',
+                                                    ).image,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(10),
                                                 ),
-                                                borderRadius:
-                                                    BorderRadius.circular(10),
+                                              ),
+                                            ),
+                                            InkWell(
+                                              onTap: () async {
+                                                await launchURL(
+                                                    'https://www.instagram.com/lafamacigars/');
+                                              },
+                                              child: Container(
+                                                width: 100,
+                                                height: 100,
+                                                decoration: BoxDecoration(
+                                                  color: Color(0xFF081C44),
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image: Image.asset(
+                                                      'assets/images/Lafama.png',
+                                                    ).image,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(10),
+                                                ),
                                               ),
                                             ),
                                             Container(
@@ -1024,16 +1063,23 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                               child: Padding(
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(5, 5, 5, 5),
-                                                child: Container(
-                                                  width: 120,
-                                                  height: 120,
-                                                  clipBehavior: Clip.antiAlias,
-                                                  decoration: BoxDecoration(
-                                                    shape: BoxShape.circle,
-                                                  ),
-                                                  child: Image.asset(
-                                                    'assets/images/Comandercigars.png',
-                                                    fit: BoxFit.cover,
+                                                child: InkWell(
+                                                  onTap: () async {
+                                                    await launchURL(
+                                                        'https://www.instagram.com/comandercigars/');
+                                                  },
+                                                  child: Container(
+                                                    width: 120,
+                                                    height: 120,
+                                                    clipBehavior:
+                                                        Clip.antiAlias,
+                                                    decoration: BoxDecoration(
+                                                      shape: BoxShape.circle,
+                                                    ),
+                                                    child: Image.asset(
+                                                      'assets/images/Comandercigars.png',
+                                                      fit: BoxFit.cover,
+                                                    ),
                                                   ),
                                                 ),
                                               ),

@@ -10,14 +10,14 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class MeloCigarsWidget extends StatefulWidget {
-  const MeloCigarsWidget({Key key}) : super(key: key);
+class PerlaDelMarWidget extends StatefulWidget {
+  const PerlaDelMarWidget({Key key}) : super(key: key);
 
   @override
-  _MeloCigarsWidgetState createState() => _MeloCigarsWidgetState();
+  _PerlaDelMarWidgetState createState() => _PerlaDelMarWidgetState();
 }
 
-class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
+class _PerlaDelMarWidgetState extends State<PerlaDelMarWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -47,7 +47,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
           },
         ),
         title: Text(
-          'MeloCigar',
+          'Perla Del Mar',
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Montserrat',
                 color: Colors.white,
@@ -88,7 +88,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                           image: DecorationImage(
                             fit: BoxFit.contain,
                             image: Image.asset(
-                              'assets/images/site_logo-1.png',
+                              'assets/images/PDM.png',
                             ).image,
                           ),
                           borderRadius: BorderRadius.only(
@@ -96,9 +96,6 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                             bottomRight: Radius.circular(20),
                             topLeft: Radius.circular(0),
                             topRight: Radius.circular(0),
-                          ),
-                          border: Border.all(
-                            color: Color(0xFF122039),
                           ),
                         ),
                       ),
@@ -137,7 +134,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/CI-AF-036.png',
+                                      'assets/images/CI-PDM-002.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -155,7 +152,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Arturo Fuente Gran Reserva',
+                                        'Perla del Mar',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -174,7 +171,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Spanish Lonsdale - Box: 25 unidades\nIntensidade: Suave-Médio\n',
+                                            'Shade Robusto - Box: 25 unidades\nIntensidade: Suave-Médio',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -199,7 +196,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                             FFButtonWidget(
                                               onPressed: () async {
                                                 await launchURL(
-                                                    'https://buy.stripe.com/7sI3cB5mgaxt8YU7sC');
+                                                    'https://buy.stripe.com/cN2bJ72a4bBx7UQ00D');
                                               },
                                               text: 'Comprar',
                                               options: FFButtonOptions(
@@ -233,7 +230,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 2.310,00',
+                                                  'R\$ 1.683,00',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1
@@ -314,7 +311,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/CI-AF-010.png',
+                                      'assets/images/CI-PDM-303.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -332,7 +329,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Arturo Fuente Cazadores',
+                                        'Perla del Mar',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -351,7 +348,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Box: 30 unidades\nIntensidade: Suave-Médio\n',
+                                            'Maduro Toro - Box: 25 unidades\nIntensidade: Médio',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -376,7 +373,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                             FFButtonWidget(
                                               onPressed: () async {
                                                 await launchURL(
-                                                    'https://buy.stripe.com/9AQ8wVg0U9tpb72aEP');
+                                                    'https://buy.stripe.com/9AQaF32a4eNJ1wsdRs');
                                               },
                                               text: 'Comprar',
                                               options: FFButtonOptions(
@@ -410,7 +407,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 2.310,00',
+                                                  'R\$ 1.757,80',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1
@@ -491,7 +488,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/CI-AF-007.png',
+                                      'assets/images/CI-PDM-004.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -509,7 +506,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Arturo Fuente Chateau ',
+                                        'Perla del Mar',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -528,7 +525,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Cuban Belicoso - Box: 24 unidades\nIntensidade: Suave-Médio\n',
+                                            'Shade Corona Gorda - Box: 25 unidades\nIntensidade: Suave-Médio',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -553,7 +550,7 @@ class _MeloCigarsWidgetState extends State<MeloCigarsWidget> {
                                             FFButtonWidget(
                                               onPressed: () async {
                                                 await launchURL(
-                                                    'https://buy.stripe.com/6oE14t9Cw5d9a2Y6oA');
+                                                    'https://buy.stripe.com/14kaF37uo351eje8x7');
                                               },
                                               text: 'Comprar',
                                               options: FFButtonOptions(

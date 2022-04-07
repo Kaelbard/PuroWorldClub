@@ -25,10 +25,15 @@ class _ArturoFuenteGranChateauCubanBelicosoWidgetState
       appBar: AppBar(
         backgroundColor: FlutterFlowTheme.of(context).tertiaryColor,
         automaticallyImplyLeading: false,
-        leading: Icon(
-          Icons.chevron_left_rounded,
-          color: Colors.white,
-          size: 32,
+        leading: InkWell(
+          onTap: () async {
+            Navigator.pop(context);
+          },
+          child: Icon(
+            Icons.chevron_left_rounded,
+            color: Colors.white,
+            size: 32,
+          ),
         ),
         title: Text(
           'Arturo Fuente',

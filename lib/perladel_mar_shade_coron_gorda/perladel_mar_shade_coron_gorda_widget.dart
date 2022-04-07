@@ -1,21 +1,21 @@
-import '../don_diego/don_diego_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../republica_d/republica_d_widget.dart';
+import '../honduras/honduras_widget.dart';
+import '../perla_del_mar/perla_del_mar_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class DonDiegoEuroCoronaCristalWidget extends StatefulWidget {
-  const DonDiegoEuroCoronaCristalWidget({Key key}) : super(key: key);
+class PerladelMarShadeCoronGordaWidget extends StatefulWidget {
+  const PerladelMarShadeCoronGordaWidget({Key key}) : super(key: key);
 
   @override
-  _DonDiegoEuroCoronaCristalWidgetState createState() =>
-      _DonDiegoEuroCoronaCristalWidgetState();
+  _PerladelMarShadeCoronGordaWidgetState createState() =>
+      _PerladelMarShadeCoronGordaWidgetState();
 }
 
-class _DonDiegoEuroCoronaCristalWidgetState
-    extends State<DonDiegoEuroCoronaCristalWidget> {
+class _PerladelMarShadeCoronGordaWidgetState
+    extends State<PerladelMarShadeCoronGordaWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -36,7 +36,7 @@ class _DonDiegoEuroCoronaCristalWidgetState
           ),
         ),
         title: Text(
-          'Don Diego',
+          'Perla del Mar',
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Lexend Deca',
                 color: Colors.white,
@@ -64,7 +64,7 @@ class _DonDiegoEuroCoronaCristalWidgetState
                     topRight: Radius.circular(0),
                   ),
                   child: Image.asset(
-                    'assets/images/CI-DE-002-2.png',
+                    'assets/images/CI-PDM-002-2.png',
                     width: MediaQuery.of(context).size.width,
                     height: 350,
                     fit: BoxFit.cover,
@@ -79,7 +79,7 @@ class _DonDiegoEuroCoronaCristalWidgetState
                 children: [
                   Expanded(
                     child: Text(
-                      'Euro Corona Cristal',
+                      'Shade Corona Gorda',
                       style: FlutterFlowTheme.of(context).title2.override(
                             fontFamily: 'Montserrat',
                             color: Colors.white,
@@ -117,7 +117,7 @@ class _DonDiegoEuroCoronaCristalWidgetState
                 children: [
                   Expanded(
                     child: Text(
-                      'Blend\nCapa: Connecticut Shade\nCapote: Rep. Dominicana\nMiolo: Honduras, Rep. Dominicana\nIntensidade: Suave\n\nBitola em Tamanhos\nPolegadas: 5 x 52\nMilímetros: 127mm x 52',
+                      'Blend\nCapa: Connecticut Shade, Equador\nCapote: Nicarágua\nMiolo: Nicarágua\nIntensidade: Suave-Médio\n\nBitola em Tamanhos\nPolegadas: 6 x 60\nMilímetros: 152mm x 54',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Montserrat',
                             color: FlutterFlowTheme.of(context).primaryBtnText,
@@ -154,7 +154,8 @@ class _DonDiegoEuroCoronaCristalWidgetState
                                     await Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                        builder: (context) => DonDiegoWidget(),
+                                        builder: (context) =>
+                                            PerlaDelMarWidget(),
                                       ),
                                     );
                                   },
@@ -166,7 +167,7 @@ class _DonDiegoEuroCoronaCristalWidgetState
                                       shape: BoxShape.circle,
                                     ),
                                     child: Image.asset(
-                                      'assets/images/DonDiego.png',
+                                      'assets/images/PDM.png',
                                       fit: BoxFit.contain,
                                     ),
                                   ),
@@ -198,7 +199,7 @@ class _DonDiegoEuroCoronaCristalWidgetState
                                   await Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => RepublicaDWidget(),
+                                      builder: (context) => HondurasWidget(),
                                     ),
                                   );
                                 },
@@ -210,7 +211,7 @@ class _DonDiegoEuroCoronaCristalWidgetState
                                     shape: BoxShape.circle,
                                   ),
                                   child: Image.asset(
-                                    'assets/images/339186-alexfas01.jpg',
+                                    'assets/images/a5f275d177f9d75452923b6458741ad8.jpg',
                                     fit: BoxFit.fitHeight,
                                   ),
                                 ),
@@ -250,9 +251,9 @@ class _DonDiegoEuroCoronaCristalWidgetState
               padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 24),
               child: FFButtonWidget(
                 onPressed: () async {
-                  await launchURL('https://buy.stripe.com/9AQ5kJg0UfRN3EA14m');
+                  await launchURL('https://buy.stripe.com/14kaF37uo351eje8x7');
                 },
-                text: 'R\$ 851,40 + Frete',
+                text: 'R\$ 1.683,00 + Frete',
                 options: FFButtonOptions(
                   width: 300,
                   height: 60,

@@ -1,4 +1,5 @@
 import '../cartade_puros/cartade_puros_widget.dart';
+import '../fale_conosco/fale_conosco_widget.dart';
 import '../flutter_flow/flutter_flow_animations.dart';
 import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
@@ -44,7 +45,6 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
       duration: 600,
-      delay: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -60,7 +60,6 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
       duration: 600,
-      delay: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -76,7 +75,6 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
       duration: 600,
-      delay: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -92,7 +90,6 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
       duration: 600,
-      delay: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -108,7 +105,6 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
       duration: 600,
-      delay: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -124,7 +120,6 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
       duration: 600,
-      delay: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -385,19 +380,12 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
                                 alignment: AlignmentDirectional(0, 0),
                                 child: InkWell(
                                   onTap: () async {
-                                    await Future.delayed(
-                                      Duration(
-                                        milliseconds: animationsMap[
+                                    await (animationsMap[
                                                 'containerOnActionTriggerAnimation2']
-                                            .delay
-                                            .toInt(),
-                                      ),
-                                      () => (animationsMap[
-                                                  'containerOnActionTriggerAnimation2']
-                                              .curvedAnimation
-                                              .parent as AnimationController)
-                                          .forward(from: 0.0),
-                                    );
+                                            .curvedAnimation
+                                            .parent as AnimationController)
+                                        .forward(from: 0.0);
+
                                     await Navigator.push(
                                       context,
                                       MaterialPageRoute(
@@ -437,21 +425,19 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
                                 alignment: AlignmentDirectional(0, 0),
                                 child: InkWell(
                                   onTap: () async {
-                                    await Future.delayed(
-                                      Duration(
-                                        milliseconds: animationsMap[
+                                    await (animationsMap[
                                                 'containerOnActionTriggerAnimation3']
-                                            .delay
-                                            .toInt(),
+                                            .curvedAnimation
+                                            .parent as AnimationController)
+                                        .forward(from: 0.0);
+
+                                    await Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            FaleConoscoWidget(),
                                       ),
-                                      () => (animationsMap[
-                                                  'containerOnActionTriggerAnimation3']
-                                              .curvedAnimation
-                                              .parent as AnimationController)
-                                          .forward(from: 0.0),
                                     );
-                                    await launchURL(
-                                        'https://puroworldclub.com/contato/');
                                   },
                                   child: Container(
                                     width: 90,
@@ -486,19 +472,12 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
                                 alignment: AlignmentDirectional(0, 0),
                                 child: InkWell(
                                   onTap: () async {
-                                    await Future.delayed(
-                                      Duration(
-                                        milliseconds: animationsMap[
+                                    await (animationsMap[
                                                 'containerOnActionTriggerAnimation4']
-                                            .delay
-                                            .toInt(),
-                                      ),
-                                      () => (animationsMap[
-                                                  'containerOnActionTriggerAnimation4']
-                                              .curvedAnimation
-                                              .parent as AnimationController)
-                                          .forward(from: 0.0),
-                                    );
+                                            .curvedAnimation
+                                            .parent as AnimationController)
+                                        .forward(from: 0.0);
+
                                     await Navigator.push(
                                       context,
                                       MaterialPageRoute(
@@ -538,19 +517,12 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
                                 alignment: AlignmentDirectional(0, 0),
                                 child: InkWell(
                                   onTap: () async {
-                                    await Future.delayed(
-                                      Duration(
-                                        milliseconds: animationsMap[
+                                    await (animationsMap[
                                                 'containerOnActionTriggerAnimation5']
-                                            .delay
-                                            .toInt(),
-                                      ),
-                                      () => (animationsMap[
-                                                  'containerOnActionTriggerAnimation5']
-                                              .curvedAnimation
-                                              .parent as AnimationController)
-                                          .forward(from: 0.0),
-                                    );
+                                            .curvedAnimation
+                                            .parent as AnimationController)
+                                        .forward(from: 0.0);
+
                                     await Navigator.push(
                                       context,
                                       MaterialPageRoute(
@@ -590,19 +562,12 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
                                 alignment: AlignmentDirectional(0, 0),
                                 child: InkWell(
                                   onTap: () async {
-                                    await Future.delayed(
-                                      Duration(
-                                        milliseconds: animationsMap[
+                                    await (animationsMap[
                                                 'containerOnActionTriggerAnimation6']
-                                            .delay
-                                            .toInt(),
-                                      ),
-                                      () => (animationsMap[
-                                                  'containerOnActionTriggerAnimation6']
-                                              .curvedAnimation
-                                              .parent as AnimationController)
-                                          .forward(from: 0.0),
-                                    );
+                                            .curvedAnimation
+                                            .parent as AnimationController)
+                                        .forward(from: 0.0);
+
                                     await Navigator.push(
                                       context,
                                       MaterialPageRoute(
@@ -643,19 +608,12 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
                                 alignment: AlignmentDirectional(0, 0),
                                 child: InkWell(
                                   onTap: () async {
-                                    await Future.delayed(
-                                      Duration(
-                                        milliseconds: animationsMap[
+                                    await (animationsMap[
                                                 'containerOnActionTriggerAnimation7']
-                                            .delay
-                                            .toInt(),
-                                      ),
-                                      () => (animationsMap[
-                                                  'containerOnActionTriggerAnimation7']
-                                              .curvedAnimation
-                                              .parent as AnimationController)
-                                          .forward(from: 0.0),
-                                    );
+                                            .curvedAnimation
+                                            .parent as AnimationController)
+                                        .forward(from: 0.0);
+
                                     await launchURL(
                                         'https://puroworldclub.com/eventos/');
                                   },

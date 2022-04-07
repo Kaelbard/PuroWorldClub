@@ -22,10 +22,15 @@ class _VegaFina1998WidgetState extends State<VegaFina1998Widget> {
       appBar: AppBar(
         backgroundColor: FlutterFlowTheme.of(context).tertiaryColor,
         automaticallyImplyLeading: false,
-        leading: Icon(
-          Icons.chevron_left_rounded,
-          color: Colors.white,
-          size: 32,
+        leading: InkWell(
+          onTap: () async {
+            Navigator.pop(context);
+          },
+          child: Icon(
+            Icons.chevron_left_rounded,
+            color: Colors.white,
+            size: 32,
+          ),
         ),
         title: Text(
           'VegaFina1998 ',

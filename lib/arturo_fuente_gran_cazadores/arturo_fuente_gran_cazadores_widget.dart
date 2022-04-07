@@ -1,5 +1,4 @@
 import '../arturo_fuente/arturo_fuente_widget.dart';
-import '../cartade_puros/cartade_puros_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
@@ -28,12 +27,7 @@ class _ArturoFuenteGranCazadoresWidgetState
         automaticallyImplyLeading: false,
         leading: InkWell(
           onTap: () async {
-            await Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => CartadePurosWidget(),
-              ),
-            );
+            Navigator.pop(context);
           },
           child: Icon(
             Icons.chevron_left_rounded,
