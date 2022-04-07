@@ -17,6 +17,7 @@ export 'dart:math' show min, max;
 export 'package:intl/intl.dart';
 export 'package:page_transition/page_transition.dart';
 export 'internationalization.dart' show FFLocalizations;
+export '../backend/firebase_analytics/analytics.dart';
 
 T valueOrDefault<T>(T value, T defaultValue) =>
     (value is String && value.isEmpty) || value == null ? defaultValue : value;
