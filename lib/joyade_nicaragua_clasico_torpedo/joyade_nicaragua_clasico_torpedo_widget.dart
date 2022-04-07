@@ -1,23 +1,21 @@
-import '../arturo_fuente/arturo_fuente_widget.dart';
-import '../cartade_puros/cartade_puros_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../republica_d/republica_d_widget.dart';
+import '../joyade_nicaragua/joyade_nicaragua_widget.dart';
+import '../nicaragua/nicaragua_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class ArturoFuenteGranReservaSpanishLonsdaleWidget extends StatefulWidget {
-  const ArturoFuenteGranReservaSpanishLonsdaleWidget({Key key})
-      : super(key: key);
+class JoyadeNicaraguaClasicoTorpedoWidget extends StatefulWidget {
+  const JoyadeNicaraguaClasicoTorpedoWidget({Key key}) : super(key: key);
 
   @override
-  _ArturoFuenteGranReservaSpanishLonsdaleWidgetState createState() =>
-      _ArturoFuenteGranReservaSpanishLonsdaleWidgetState();
+  _JoyadeNicaraguaClasicoTorpedoWidgetState createState() =>
+      _JoyadeNicaraguaClasicoTorpedoWidgetState();
 }
 
-class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
-    extends State<ArturoFuenteGranReservaSpanishLonsdaleWidget> {
+class _JoyadeNicaraguaClasicoTorpedoWidgetState
+    extends State<JoyadeNicaraguaClasicoTorpedoWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -27,23 +25,13 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
       appBar: AppBar(
         backgroundColor: FlutterFlowTheme.of(context).tertiaryColor,
         automaticallyImplyLeading: false,
-        leading: InkWell(
-          onTap: () async {
-            await Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => CartadePurosWidget(),
-              ),
-            );
-          },
-          child: Icon(
-            Icons.chevron_left_rounded,
-            color: Colors.white,
-            size: 32,
-          ),
+        leading: Icon(
+          Icons.chevron_left_rounded,
+          color: Colors.white,
+          size: 32,
         ),
         title: Text(
-          'Arturo Fuente',
+          'Joya de Nicaragua',
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Lexend Deca',
                 color: Colors.white,
@@ -71,7 +59,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                     topRight: Radius.circular(0),
                   ),
                   child: Image.asset(
-                    'assets/images/CI-AF-036-2.png',
+                    'assets/images/CI-JDN-012-2.png',
                     width: MediaQuery.of(context).size.width,
                     height: 350,
                     fit: BoxFit.cover,
@@ -86,7 +74,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                 children: [
                   Expanded(
                     child: Text(
-                      'Gran Reserva\nSpanish Lonsdale',
+                      'Clásico Torpedo',
                       style: FlutterFlowTheme.of(context).title2.override(
                             fontFamily: 'Montserrat',
                             color: Colors.white,
@@ -124,7 +112,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                 children: [
                   Expanded(
                     child: Text(
-                      'Blend\nCapa: Connecticut Shade\nCapote: Rep. Dominicana\nMiolo: Rep. Dominicana\nIntensidade: Suave-Médio\n\nBitola em Tamanhos\nPolegadas: 6 1/2 x 42\nMilímetros: 165mm x 42',
+                      'Blend\nCapa: Connecticut Shade, Equador\nCapote: Nicarágua\nMiolo: Nicarágua\nIntensidade: Suave\n\nBitola em Tamanhos\nPolegadas: 6 x 52\nMilímetros: 152mm x 52',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Montserrat',
                             color: FlutterFlowTheme.of(context).primaryBtnText,
@@ -162,7 +150,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                                       context,
                                       MaterialPageRoute(
                                         builder: (context) =>
-                                            ArturoFuenteWidget(),
+                                            JoyadeNicaraguaWidget(),
                                       ),
                                     );
                                   },
@@ -174,8 +162,8 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                                       shape: BoxShape.circle,
                                     ),
                                     child: Image.asset(
-                                      'assets/images/site_logo-1.png',
-                                      fit: BoxFit.contain,
+                                      'assets/images/joyadenicaragua1.png',
+                                      fit: BoxFit.cover,
                                     ),
                                   ),
                                 ),
@@ -206,7 +194,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                                   await Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => RepublicaDWidget(),
+                                      builder: (context) => NicaraguaWidget(),
                                     ),
                                   );
                                 },
@@ -218,7 +206,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                                     shape: BoxShape.circle,
                                   ),
                                   child: Image.asset(
-                                    'assets/images/339186-alexfas01.jpg',
+                                    'assets/images/1562-flag-of-nicaragua.webp',
                                     fit: BoxFit.fitHeight,
                                   ),
                                 ),
@@ -258,9 +246,9 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
               padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 24),
               child: FFButtonWidget(
                 onPressed: () async {
-                  await launchURL('https://buy.stripe.com/7sI3cB5mgaxt8YU7sC');
+                  await launchURL('https://buy.stripe.com/28o4gF3e8bBxdfa28D');
                 },
-                text: 'R\$ 2.310,00 + Frete',
+                text: 'R\$ 1.400,00 + Frete',
                 options: FFButtonOptions(
                   width: 300,
                   height: 60,

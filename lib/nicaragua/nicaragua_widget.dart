@@ -1,31 +1,35 @@
-import '../arturo_fuente_gran_cazadores/arturo_fuente_gran_cazadores_widget.dart';
-import '../arturo_fuente_gran_chateau_cuban_belicoso/arturo_fuente_gran_chateau_cuban_belicoso_widget.dart';
-import '../arturo_fuente_gran_reserva_spanish_lonsdale/arturo_fuente_gran_reserva_spanish_lonsdale_widget.dart';
 import '../cartade_puros/cartade_puros_widget.dart';
-import '../don_diego_euro_corona/don_diego_euro_corona_widget.dart';
-import '../don_diego_euro_corona_cristal/don_diego_euro_corona_cristal_widget.dart';
-import '../don_diego_euro_monarch_tube/don_diego_euro_monarch_tube_widget.dart';
-import '../don_diego_euro_robusto/don_diego_euro_robusto_widget.dart';
-import '../don_diego_euro_torpedo/don_diego_euro_torpedo_widget.dart';
+import '../enclave_habano_churchill/enclave_habano_churchill_widget.dart';
+import '../enclave_habano_figurados/enclave_habano_figurados_widget.dart';
+import '../florde_las_antillas_maduro_corona/florde_las_antillas_maduro_corona_widget.dart';
+import '../florde_las_antillas_maduro_torpedo/florde_las_antillas_maduro_torpedo_widget.dart';
+import '../florde_oliva/florde_oliva_widget.dart';
 import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../gurka_cellar_reserve18_years_hedonis/gurka_cellar_reserve18_years_hedonis_widget.dart';
-import '../gurka_cellar_reserve21_years_hedonis/gurka_cellar_reserve21_years_hedonis_widget.dart';
-import '../vega_fina1998/vega_fina1998_widget.dart';
+import '../gurka_cellar_reserve12_years_hedonis/gurka_cellar_reserve12_years_hedonis_widget.dart';
+import '../gurka_cellar_reserve12_years_robusto/gurka_cellar_reserve12_years_robusto_widget.dart';
+import '../joyade_nicaragua_clasico_robusto/joyade_nicaragua_clasico_robusto_widget.dart';
+import '../joyade_nicaragua_clasico_torpedo/joyade_nicaragua_clasico_torpedo_widget.dart';
+import '../oliva_double_toro/oliva_double_toro_widget.dart';
+import '../oliva_serie_v/oliva_serie_v_widget.dart';
+import '../quorum_toro/quorum_toro_widget.dart';
+import '../quorum_torpedo/quorum_torpedo_widget.dart';
+import '../vega_fina_fortaleza2_short_beliscoso/vega_fina_fortaleza2_short_beliscoso_widget.dart';
+import '../vega_fina_fortaleza2_short_toro/vega_fina_fortaleza2_short_toro_widget.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class RepublicaDWidget extends StatefulWidget {
-  const RepublicaDWidget({Key key}) : super(key: key);
+class NicaraguaWidget extends StatefulWidget {
+  const NicaraguaWidget({Key key}) : super(key: key);
 
   @override
-  _RepublicaDWidgetState createState() => _RepublicaDWidgetState();
+  _NicaraguaWidgetState createState() => _NicaraguaWidgetState();
 }
 
-class _RepublicaDWidgetState extends State<RepublicaDWidget> {
+class _NicaraguaWidgetState extends State<NicaraguaWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -55,7 +59,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
           },
         ),
         title: Text(
-          'República Dominicana',
+          'Nicarágua',
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Montserrat',
                 color: Colors.white,
@@ -96,7 +100,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                           image: DecorationImage(
                             fit: BoxFit.cover,
                             image: Image.asset(
-                              'assets/images/339186-alexfas01.jpg',
+                              'assets/images/1562-flag-of-nicaragua.webp',
                             ).image,
                           ),
                           borderRadius: BorderRadius.only(
@@ -124,7 +128,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) =>
-                                      ArturoFuenteGranReservaSpanishLonsdaleWidget(),
+                                      EnclaveHabanoChurchillWidget(),
                                 ),
                               );
                             },
@@ -142,7 +146,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/CI-AF-036.png',
+                                      'assets/images/CI-EN-003.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -160,7 +164,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Arturo Fuente Gran Reserva',
+                                        'Enclave Habano Churchill',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -179,892 +183,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Spanish Lonsdale - Box: 25 unidades\nIntensidade: Suave-Médio\n',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyText2
-                                                .override(
-                                                  fontFamily: 'Montserrat',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryBtnText,
-                                                  fontSize: 14,
-                                                  fontWeight: FontWeight.w500,
-                                                ),
-                                          ),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            2, 2, 2, 2),
-                                        child: Row(
-                                          mainAxisSize: MainAxisSize.max,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            FFButtonWidget(
-                                              onPressed: () async {
-                                                await launchURL(
-                                                    'https://buy.stripe.com/7sI3cB5mgaxt8YU7sC');
-                                              },
-                                              text: 'Comprar',
-                                              options: FFButtonOptions(
-                                                width: 100,
-                                                height: 40,
-                                                color: Color(0xFF5F4621),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .subtitle2
-                                                        .override(
-                                                          fontFamily:
-                                                              'Montserrat',
-                                                          color: Colors.white,
-                                                          fontSize: 16,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
-                                                elevation: 2,
-                                                borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1,
-                                                ),
-                                                borderRadius: 10,
-                                              ),
-                                            ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.end,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.end,
-                                              children: [
-                                                Text(
-                                                  'R\$ 2.310,00',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .subtitle1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryBtnText,
-                                                        fontSize: 20,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  '+ frete',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyText1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .lineColor,
-                                                        fontSize: 14,
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                      ),
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
-                          child: InkWell(
-                            onTap: () async {
-                              await Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      ArturoFuenteGranCazadoresWidget(),
-                                ),
-                              );
-                            },
-                            child: Material(
-                              color: Colors.transparent,
-                              elevation: 3,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(16),
-                              ),
-                              child: Container(
-                                width: double.infinity,
-                                height: 170,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF5F4621),
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                    image: Image.asset(
-                                      'assets/images/CI-AF-010.png',
-                                    ).image,
-                                  ),
-                                  borderRadius: BorderRadius.circular(16),
-                                  border: Border.all(
-                                    color: Color(0xFF5F4621),
-                                  ),
-                                ),
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      16, 20, 16, 16),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Arturo Fuente Cazadores',
-                                        textAlign: TextAlign.start,
-                                        style: FlutterFlowTheme.of(context)
-                                            .title3
-                                            .override(
-                                              fontFamily: 'Montserrat',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryBtnText,
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                      ),
-                                      Expanded(
-                                        child: Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  0, 5, 0, 8),
-                                          child: AutoSizeText(
-                                            'Box: 30 unidades\nIntensidade: Suave-Médio\n',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyText2
-                                                .override(
-                                                  fontFamily: 'Montserrat',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryBtnText,
-                                                  fontSize: 14,
-                                                  fontWeight: FontWeight.w500,
-                                                ),
-                                          ),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            2, 2, 2, 2),
-                                        child: Row(
-                                          mainAxisSize: MainAxisSize.max,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            FFButtonWidget(
-                                              onPressed: () async {
-                                                await launchURL(
-                                                    'https://buy.stripe.com/9AQ8wVg0U9tpb72aEP');
-                                              },
-                                              text: 'Comprar',
-                                              options: FFButtonOptions(
-                                                width: 100,
-                                                height: 40,
-                                                color: Color(0xFF5F4621),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .subtitle2
-                                                        .override(
-                                                          fontFamily:
-                                                              'Montserrat',
-                                                          color: Colors.white,
-                                                          fontSize: 16,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
-                                                elevation: 2,
-                                                borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1,
-                                                ),
-                                                borderRadius: 10,
-                                              ),
-                                            ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.end,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.end,
-                                              children: [
-                                                Text(
-                                                  'R\$ 2.310,00',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .subtitle1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryBtnText,
-                                                        fontSize: 20,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  '+ frete',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyText1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .lineColor,
-                                                        fontSize: 14,
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                      ),
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
-                          child: InkWell(
-                            onTap: () async {
-                              await Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      ArturoFuenteGranChateauCubanBelicosoWidget(),
-                                ),
-                              );
-                            },
-                            child: Material(
-                              color: Colors.transparent,
-                              elevation: 3,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(16),
-                              ),
-                              child: Container(
-                                width: double.infinity,
-                                height: 170,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF5F4621),
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                    image: Image.asset(
-                                      'assets/images/CI-AF-007.png',
-                                    ).image,
-                                  ),
-                                  borderRadius: BorderRadius.circular(16),
-                                  border: Border.all(
-                                    color: Color(0xFF5F4621),
-                                  ),
-                                ),
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      16, 20, 16, 16),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Arturo Fuente Chateau ',
-                                        textAlign: TextAlign.start,
-                                        style: FlutterFlowTheme.of(context)
-                                            .title3
-                                            .override(
-                                              fontFamily: 'Montserrat',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryBtnText,
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                      ),
-                                      Expanded(
-                                        child: Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  0, 5, 0, 8),
-                                          child: AutoSizeText(
-                                            'Cuban Belicoso - Box: 24 unidades\nIntensidade: Suave-Médio\n',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyText2
-                                                .override(
-                                                  fontFamily: 'Montserrat',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryBtnText,
-                                                  fontSize: 14,
-                                                  fontWeight: FontWeight.w500,
-                                                ),
-                                          ),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            2, 2, 2, 2),
-                                        child: Row(
-                                          mainAxisSize: MainAxisSize.max,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            FFButtonWidget(
-                                              onPressed: () async {
-                                                await launchURL(
-                                                    'https://buy.stripe.com/6oE14t9Cw5d9a2Y6oA');
-                                              },
-                                              text: 'Comprar',
-                                              options: FFButtonOptions(
-                                                width: 100,
-                                                height: 40,
-                                                color: Color(0xFF5F4621),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .subtitle2
-                                                        .override(
-                                                          fontFamily:
-                                                              'Montserrat',
-                                                          color: Colors.white,
-                                                          fontSize: 16,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
-                                                elevation: 2,
-                                                borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1,
-                                                ),
-                                                borderRadius: 10,
-                                              ),
-                                            ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.end,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.end,
-                                              children: [
-                                                Text(
-                                                  'R\$ 3.520,00',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .subtitle1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryBtnText,
-                                                        fontSize: 20,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  '+ frete',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyText1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .lineColor,
-                                                        fontSize: 14,
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                      ),
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
-                          child: InkWell(
-                            onTap: () async {
-                              await Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      DonDiegoEuroRobustoWidget(),
-                                ),
-                              );
-                            },
-                            child: Material(
-                              color: Colors.transparent,
-                              elevation: 3,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(16),
-                              ),
-                              child: Container(
-                                width: double.infinity,
-                                height: 170,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF5F4621),
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                    image: Image.asset(
-                                      'assets/images/CI-DE-004.png',
-                                    ).image,
-                                  ),
-                                  borderRadius: BorderRadius.circular(16),
-                                  border: Border.all(
-                                    color: Color(0xFF5F4621),
-                                  ),
-                                ),
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      16, 20, 16, 16),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Don Diego Euro Robusto',
-                                        textAlign: TextAlign.start,
-                                        style: FlutterFlowTheme.of(context)
-                                            .title3
-                                            .override(
-                                              fontFamily: 'Montserrat',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryBtnText,
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                      ),
-                                      Expanded(
-                                        child: Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  0, 5, 0, 8),
-                                          child: AutoSizeText(
-                                            'Box: 10 unidades\nIntensidade: Suave\n',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyText2
-                                                .override(
-                                                  fontFamily: 'Montserrat',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryBtnText,
-                                                  fontSize: 14,
-                                                  fontWeight: FontWeight.w500,
-                                                ),
-                                          ),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            2, 2, 2, 2),
-                                        child: Row(
-                                          mainAxisSize: MainAxisSize.max,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            FFButtonWidget(
-                                              onPressed: () async {
-                                                await launchURL(
-                                                    'https://buy.stripe.com/aEU3cB3e89tp1ws3cp');
-                                              },
-                                              text: 'Comprar',
-                                              options: FFButtonOptions(
-                                                width: 100,
-                                                height: 40,
-                                                color: Color(0xFF5F4621),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .subtitle2
-                                                        .override(
-                                                          fontFamily:
-                                                              'Montserrat',
-                                                          color: Colors.white,
-                                                          fontSize: 16,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
-                                                elevation: 2,
-                                                borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1,
-                                                ),
-                                                borderRadius: 10,
-                                              ),
-                                            ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.end,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.end,
-                                              children: [
-                                                Text(
-                                                  'R\$ 860,00',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .subtitle1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryBtnText,
-                                                        fontSize: 20,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  '+ frete',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyText1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .lineColor,
-                                                        fontSize: 14,
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                      ),
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
-                          child: InkWell(
-                            onTap: () async {
-                              await Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      DonDiegoEuroTorpedoWidget(),
-                                ),
-                              );
-                            },
-                            child: Material(
-                              color: Colors.transparent,
-                              elevation: 3,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(16),
-                              ),
-                              child: Container(
-                                width: double.infinity,
-                                height: 170,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF5F4621),
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                    image: Image.asset(
-                                      'assets/images/Ci-DE-005.png',
-                                    ).image,
-                                  ),
-                                  borderRadius: BorderRadius.circular(16),
-                                  border: Border.all(
-                                    color: Color(0xFF5F4621),
-                                  ),
-                                ),
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      16, 20, 16, 16),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Don Diego Euro Torpedo',
-                                        textAlign: TextAlign.start,
-                                        style: FlutterFlowTheme.of(context)
-                                            .title3
-                                            .override(
-                                              fontFamily: 'Montserrat',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryBtnText,
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                      ),
-                                      Expanded(
-                                        child: Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  0, 5, 0, 8),
-                                          child: AutoSizeText(
-                                            'Box: 10 unidades\nIntensidade: Suave\n',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyText2
-                                                .override(
-                                                  fontFamily: 'Montserrat',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primaryBtnText,
-                                                  fontSize: 14,
-                                                  fontWeight: FontWeight.w500,
-                                                ),
-                                          ),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            2, 2, 2, 2),
-                                        child: Row(
-                                          mainAxisSize: MainAxisSize.max,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            FFButtonWidget(
-                                              onPressed: () async {
-                                                await launchURL(
-                                                    'https://buy.stripe.com/6oEcNbbKEcFBdfa4gu');
-                                              },
-                                              text: 'Comprar',
-                                              options: FFButtonOptions(
-                                                width: 100,
-                                                height: 40,
-                                                color: Color(0xFF5F4621),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .subtitle2
-                                                        .override(
-                                                          fontFamily:
-                                                              'Montserrat',
-                                                          color: Colors.white,
-                                                          fontSize: 16,
-                                                          fontWeight:
-                                                              FontWeight.w600,
-                                                        ),
-                                                elevation: 2,
-                                                borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1,
-                                                ),
-                                                borderRadius: 10,
-                                              ),
-                                            ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.end,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.end,
-                                              children: [
-                                                Text(
-                                                  'R\$ 798,60',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .subtitle1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryBtnText,
-                                                        fontSize: 20,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  '+ frete',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyText1
-                                                      .override(
-                                                        fontFamily:
-                                                            'Montserrat',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .lineColor,
-                                                        fontSize: 14,
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                      ),
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
-                          child: InkWell(
-                            onTap: () async {
-                              await Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      DonDiegoEuroRobustoWidget(),
-                                ),
-                              );
-                            },
-                            child: Material(
-                              color: Colors.transparent,
-                              elevation: 3,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(16),
-                              ),
-                              child: Container(
-                                width: double.infinity,
-                                height: 170,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF5F4621),
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                    image: Image.asset(
-                                      'assets/images/Ci-DE-005.png',
-                                    ).image,
-                                  ),
-                                  borderRadius: BorderRadius.circular(16),
-                                  border: Border.all(
-                                    color: Color(0xFF5F4621),
-                                  ),
-                                ),
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      16, 20, 16, 16),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Don Diego Euro Torpedo',
-                                        textAlign: TextAlign.start,
-                                        style: FlutterFlowTheme.of(context)
-                                            .title3
-                                            .override(
-                                              fontFamily: 'Montserrat',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryBtnText,
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                      ),
-                                      Expanded(
-                                        child: Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  0, 5, 0, 8),
-                                          child: AutoSizeText(
-                                            'Box: 25 unidades\nIntensidade: Suave\n',
+                                            'Box: 20 unidades\nIntensidade: Forte\n',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -1123,7 +242,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 1.597,20',
+                                                  'R\$ 2.090,00',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1
@@ -1186,7 +305,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) =>
-                                      DonDiegoEuroCoronaCristalWidget(),
+                                      EnclaveHabanoFiguradosWidget(),
                                 ),
                               );
                             },
@@ -1204,7 +323,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/CI-DE-002.png',
+                                      'assets/images/CI-EN-004.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -1222,7 +341,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Don Diego Euro Corona Cristal',
+                                        'Enclave Habano Figurados',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -1241,7 +360,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Box: 10 unidades\nIntensidade: Suave\n',
+                                            'Box: 20 unidades\nIntensidade: Forte\n',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -1300,7 +419,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 851,40',
+                                                  'R\$ 2.156,00',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1
@@ -1363,7 +482,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) =>
-                                      DonDiegoEuroMonarchTubeWidget(),
+                                      FlordeLasAntillasMaduroCoronaWidget(),
                                 ),
                               );
                             },
@@ -1381,7 +500,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/CI-DE-010.png',
+                                      'assets/images/CI-FLA-006.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -1399,7 +518,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Don Diego Euro Monarch Tube',
+                                        'Flor de Las Antillas ',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -1418,7 +537,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Box: 10 unidades\nIntensidade: Suave\n',
+                                            'Maduro Corona - Box: 20 unidades\nIntensidade: Médio-Forte\n',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -1443,7 +562,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                             FFButtonWidget(
                                               onPressed: () async {
                                                 await launchURL(
-                                                    'https://buy.stripe.com/aEU5kJ9Cw5d9ejecN3');
+                                                    'https://buy.stripe.com/7sI3cB5mgaxt8YU7sC');
                                               },
                                               text: 'Comprar',
                                               options: FFButtonOptions(
@@ -1477,7 +596,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 996,60',
+                                                  'R\$ 2.178,00',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1
@@ -1540,7 +659,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) =>
-                                      DonDiegoEuroCoronaWidget(),
+                                      FlordeLasAntillasMaduroTorpedoWidget(),
                                 ),
                               );
                             },
@@ -1558,7 +677,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/CI-DE-008.png',
+                                      'assets/images/CI-FLA-008.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -1576,7 +695,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Don Diego Euro Corona',
+                                        'Flor de Las Antillas ',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -1595,7 +714,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Box: 10 unidades\nIntensidade: Suave\n',
+                                            'Maduro Torpedo - Box: 20 unidades\nIntensidade: Médio-Forte\n',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -1620,7 +739,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                             FFButtonWidget(
                                               onPressed: () async {
                                                 await launchURL(
-                                                    'https://buy.stripe.com/fZe14t8ysbBx1wscN2');
+                                                    'https://buy.stripe.com/9AQ8wVg0U9tpb72aEP');
                                               },
                                               text: 'Comprar',
                                               options: FFButtonOptions(
@@ -1654,7 +773,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 653,40',
+                                                  'R\$ 2.574,00',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1
@@ -1716,8 +835,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                               await Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) =>
-                                      GurkaCellarReserve18YearsHedonisWidget(),
+                                  builder: (context) => FlordeOlivaWidget(),
                                 ),
                               );
                             },
@@ -1735,7 +853,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/GK-109.png',
+                                      'assets/images/CI-FDO-001.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -1753,7 +871,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Gurka Cellar Reserve 18 Years',
+                                        'Flor de Oliva Robusto',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -1772,7 +890,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Hedonism Grand Rothchild\nBox: 20 unidades\nIntensidade: Médio-Forte\n',
+                                            'Box: 25 unidades\nIntensidade: Suave-Médio\n',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -1797,7 +915,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                             FFButtonWidget(
                                               onPressed: () async {
                                                 await launchURL(
-                                                    'https://buy.stripe.com/dR6dRfcOIdJF2Aw4gz');
+                                                    'https://buy.stripe.com/6oE14t9Cw5d9a2Y6oA');
                                               },
                                               text: 'Comprar',
                                               options: FFButtonOptions(
@@ -1831,7 +949,359 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 4.070,00',
+                                                  'R\$ 1.302,00',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .subtitle1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryBtnText,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  '+ frete',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .lineColor,
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                      ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => OlivaDoubleToroWidget(),
+                                ),
+                              );
+                            },
+                            child: Material(
+                              color: Colors.transparent,
+                              elevation: 3,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Container(
+                                width: double.infinity,
+                                height: 170,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF5F4621),
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/CI-OLV-012.png',
+                                    ).image,
+                                  ),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: Color(0xFF5F4621),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      16, 20, 16, 16),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Olivia Serie V Melanio',
+                                        textAlign: TextAlign.start,
+                                        style: FlutterFlowTheme.of(context)
+                                            .title3
+                                            .override(
+                                              fontFamily: 'Montserrat',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                      Expanded(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 5, 0, 8),
+                                          child: AutoSizeText(
+                                            'Double Toro - Box: 10 unidades\nIntensidade: Média\n',
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText2
+                                                .override(
+                                                  fontFamily: 'Montserrat',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryBtnText,
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            2, 2, 2, 2),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                await launchURL(
+                                                    'https://buy.stripe.com/aEU3cB3e89tp1ws3cp');
+                                              },
+                                              text: 'Comprar',
+                                              options: FFButtonOptions(
+                                                width: 100,
+                                                height: 40,
+                                                color: Color(0xFF5F4621),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          color: Colors.white,
+                                                          fontSize: 16,
+                                                          fontWeight:
+                                                              FontWeight.w600,
+                                                        ),
+                                                elevation: 2,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1,
+                                                ),
+                                                borderRadius: 10,
+                                              ),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Text(
+                                                  'R\$ 2.388,00',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .subtitle1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryBtnText,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  '+ frete',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .lineColor,
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                      ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => OlivaSerieVWidget(),
+                                ),
+                              );
+                            },
+                            child: Material(
+                              color: Colors.transparent,
+                              elevation: 3,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Container(
+                                width: double.infinity,
+                                height: 170,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF5F4621),
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/Ci-OLV-007.png',
+                                    ).image,
+                                  ),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: Color(0xFF5F4621),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      16, 20, 16, 16),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Olivia Serie V N° 4',
+                                        textAlign: TextAlign.start,
+                                        style: FlutterFlowTheme.of(context)
+                                            .title3
+                                            .override(
+                                              fontFamily: 'Montserrat',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                      Expanded(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 5, 0, 8),
+                                          child: AutoSizeText(
+                                            'Box: 24 unidades\nIntensidade: Médio-Forte\n',
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText2
+                                                .override(
+                                                  fontFamily: 'Montserrat',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryBtnText,
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            2, 2, 2, 2),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                await launchURL(
+                                                    'https://buy.stripe.com/6oEcNbbKEcFBdfa4gu');
+                                              },
+                                              text: 'Comprar',
+                                              options: FFButtonOptions(
+                                                width: 100,
+                                                height: 40,
+                                                color: Color(0xFF5F4621),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          color: Colors.white,
+                                                          fontSize: 16,
+                                                          fontWeight:
+                                                              FontWeight.w600,
+                                                        ),
+                                                elevation: 2,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1,
+                                                ),
+                                                borderRadius: 10,
+                                              ),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Text(
+                                                  'R\$ 2.574,60',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1
@@ -1894,7 +1364,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) =>
-                                      GurkaCellarReserve21YearsHedonisWidget(),
+                                      GurkaCellarReserve12YearsRobustoWidget(),
                                 ),
                               );
                             },
@@ -1912,7 +1382,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/GK-125.png',
+                                      'assets/images/GK-137.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -1930,7 +1400,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Gurka Cellar Reserve 21 Years',
+                                        'Gurka Cellar Reserve 12 Years',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -1949,7 +1419,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'Hedonism Grand Rothchild\nBox: 20 unidades\nIntensidade: Média\n',
+                                            'Hedonism Grand Robusto\nBox: 20 unidades\nIntensidade: Média\n',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -2008,7 +1478,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 4.730,00',
+                                                  'R\$ 2.200,00',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1
@@ -2070,7 +1540,8 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                               await Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => VegaFina1998Widget(),
+                                  builder: (context) =>
+                                      GurkaCellarReserve12YearsHedonisWidget(),
                                 ),
                               );
                             },
@@ -2088,7 +1559,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: Image.asset(
-                                      'assets/images/CI-VF-023.png',
+                                      'assets/images/GK-102.png',
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(16),
@@ -2106,7 +1577,7 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'VegaFina 1998',
+                                        'Gurka Cellar Reserve 12 Years',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .title3
@@ -2125,7 +1596,537 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 5, 0, 8),
                                           child: AutoSizeText(
-                                            'VF 50\', VF 52\', VF 54\'\nBox: 30 unidades\nIntensidade: Média\n',
+                                            'Hedonism Grand Rothchild\nBox: 20 unidades\nIntensidade: Média\n',
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText2
+                                                .override(
+                                                  fontFamily: 'Montserrat',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryBtnText,
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            2, 2, 2, 2),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                await launchURL(
+                                                    'https://buy.stripe.com/dR6dRfcOIdJF2Aw4gz');
+                                              },
+                                              text: 'Comprar',
+                                              options: FFButtonOptions(
+                                                width: 100,
+                                                height: 40,
+                                                color: Color(0xFF5F4621),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          color: Colors.white,
+                                                          fontSize: 16,
+                                                          fontWeight:
+                                                              FontWeight.w600,
+                                                        ),
+                                                elevation: 2,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1,
+                                                ),
+                                                borderRadius: 10,
+                                              ),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Text(
+                                                  'R\$ 2.860,00',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .subtitle1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryBtnText,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  '+ frete',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .lineColor,
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                      ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      JoyadeNicaraguaClasicoTorpedoWidget(),
+                                ),
+                              );
+                            },
+                            child: Material(
+                              color: Colors.transparent,
+                              elevation: 3,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Container(
+                                width: double.infinity,
+                                height: 170,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF5F4621),
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/CI-JDN-013.png',
+                                    ).image,
+                                  ),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: Color(0xFF5F4621),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      16, 20, 16, 16),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Joya de Nicaragua Clásico',
+                                        textAlign: TextAlign.start,
+                                        style: FlutterFlowTheme.of(context)
+                                            .title3
+                                            .override(
+                                              fontFamily: 'Montserrat',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                      Expanded(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 5, 0, 8),
+                                          child: AutoSizeText(
+                                            'Torpedo - Box: 25 unidades\nIntensidade: Suave\n',
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText2
+                                                .override(
+                                                  fontFamily: 'Montserrat',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryBtnText,
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            2, 2, 2, 2),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                await launchURL(
+                                                    'https://buy.stripe.com/aEU5kJ9Cw5d9ejecN3');
+                                              },
+                                              text: 'Comprar',
+                                              options: FFButtonOptions(
+                                                width: 100,
+                                                height: 40,
+                                                color: Color(0xFF5F4621),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          color: Colors.white,
+                                                          fontSize: 16,
+                                                          fontWeight:
+                                                              FontWeight.w600,
+                                                        ),
+                                                elevation: 2,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1,
+                                                ),
+                                                borderRadius: 10,
+                                              ),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Text(
+                                                  'R\$ 1.400,00',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .subtitle1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryBtnText,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  '+ frete',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .lineColor,
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                      ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      JoyadeNicaraguaClasicoRobustoWidget(),
+                                ),
+                              );
+                            },
+                            child: Material(
+                              color: Colors.transparent,
+                              elevation: 3,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Container(
+                                width: double.infinity,
+                                height: 170,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF5F4621),
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/CI-JDN-012.png',
+                                    ).image,
+                                  ),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: Color(0xFF5F4621),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      16, 20, 16, 16),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Joya de Nicaragua Clásico',
+                                        textAlign: TextAlign.start,
+                                        style: FlutterFlowTheme.of(context)
+                                            .title3
+                                            .override(
+                                              fontFamily: 'Montserrat',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                      Expanded(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 5, 0, 8),
+                                          child: AutoSizeText(
+                                            'Robusto - Box: 25 unidades\nIntensidade: Suave\n',
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText2
+                                                .override(
+                                                  fontFamily: 'Montserrat',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryBtnText,
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            2, 2, 2, 2),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                await launchURL(
+                                                    'https://buy.stripe.com/fZe14t8ysbBx1wscN2');
+                                              },
+                                              text: 'Comprar',
+                                              options: FFButtonOptions(
+                                                width: 100,
+                                                height: 40,
+                                                color: Color(0xFF5F4621),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          color: Colors.white,
+                                                          fontSize: 16,
+                                                          fontWeight:
+                                                              FontWeight.w600,
+                                                        ),
+                                                elevation: 2,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1,
+                                                ),
+                                                borderRadius: 10,
+                                              ),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Text(
+                                                  'R\$ 1.230,00',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .subtitle1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryBtnText,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  '+ frete',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .lineColor,
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                      ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => QuorumTorpedoWidget(),
+                                ),
+                              );
+                            },
+                            child: Material(
+                              color: Colors.transparent,
+                              elevation: 3,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Container(
+                                width: double.infinity,
+                                height: 170,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF5F4621),
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/CI-QR-006.png',
+                                    ).image,
+                                  ),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: Color(0xFF5F4621),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      16, 20, 16, 16),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Quorum Torpedo',
+                                        textAlign: TextAlign.start,
+                                        style: FlutterFlowTheme.of(context)
+                                            .title3
+                                            .override(
+                                              fontFamily: 'Montserrat',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                      Expanded(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 5, 0, 8),
+                                          child: AutoSizeText(
+                                            'Box: 20 unidades\nIntensidade: Média\n',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
@@ -2184,7 +2185,537 @@ class _RepublicaDWidgetState extends State<RepublicaDWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 2.420,00',
+                                                  'R\$ 825,00',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .subtitle1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryBtnText,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  '+ frete',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .lineColor,
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                      ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => QuorumToroWidget(),
+                                ),
+                              );
+                            },
+                            child: Material(
+                              color: Colors.transparent,
+                              elevation: 3,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Container(
+                                width: double.infinity,
+                                height: 170,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF5F4621),
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/CI-QR-003.png',
+                                    ).image,
+                                  ),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: Color(0xFF5F4621),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      16, 20, 16, 16),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Quorum Toro',
+                                        textAlign: TextAlign.start,
+                                        style: FlutterFlowTheme.of(context)
+                                            .title3
+                                            .override(
+                                              fontFamily: 'Montserrat',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                      Expanded(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 5, 0, 8),
+                                          child: AutoSizeText(
+                                            'Box: 20 unidades\nIntensidade: Média\n',
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText2
+                                                .override(
+                                                  fontFamily: 'Montserrat',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryBtnText,
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            2, 2, 2, 2),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                await launchURL(
+                                                    'https://buy.stripe.com/aEUdRf1605d94IEdRb');
+                                              },
+                                              text: 'Comprar',
+                                              options: FFButtonOptions(
+                                                width: 100,
+                                                height: 40,
+                                                color: Color(0xFF5F4621),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          color: Colors.white,
+                                                          fontSize: 16,
+                                                          fontWeight:
+                                                              FontWeight.w600,
+                                                        ),
+                                                elevation: 2,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1,
+                                                ),
+                                                borderRadius: 10,
+                                              ),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Text(
+                                                  'R\$ 660,00',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .subtitle1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryBtnText,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  '+ frete',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .lineColor,
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                      ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      VegaFinaFortaleza2ShortBeliscosoWidget(),
+                                ),
+                              );
+                            },
+                            child: Material(
+                              color: Colors.transparent,
+                              elevation: 3,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Container(
+                                width: double.infinity,
+                                height: 170,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF5F4621),
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/CI-VF-018.png',
+                                    ).image,
+                                  ),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: Color(0xFF5F4621),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      16, 20, 16, 16),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'VegaFina Fortaleza 2',
+                                        textAlign: TextAlign.start,
+                                        style: FlutterFlowTheme.of(context)
+                                            .title3
+                                            .override(
+                                              fontFamily: 'Montserrat',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                      Expanded(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 5, 0, 8),
+                                          child: AutoSizeText(
+                                            'Short Belicoso - Box: 10 unidades\nIntensidade: Média\n',
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText2
+                                                .override(
+                                                  fontFamily: 'Montserrat',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryBtnText,
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            2, 2, 2, 2),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                await launchURL(
+                                                    'https://buy.stripe.com/aEUdRf1605d94IEdRb');
+                                              },
+                                              text: 'Comprar',
+                                              options: FFButtonOptions(
+                                                width: 100,
+                                                height: 40,
+                                                color: Color(0xFF5F4621),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          color: Colors.white,
+                                                          fontSize: 16,
+                                                          fontWeight:
+                                                              FontWeight.w600,
+                                                        ),
+                                                elevation: 2,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1,
+                                                ),
+                                                borderRadius: 10,
+                                              ),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Text(
+                                                  'R\$ 693,00',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .subtitle1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryBtnText,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  '+ frete',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            'Montserrat',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .lineColor,
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                      ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      VegaFinaFortaleza2ShortToroWidget(),
+                                ),
+                              );
+                            },
+                            child: Material(
+                              color: Colors.transparent,
+                              elevation: 3,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Container(
+                                width: double.infinity,
+                                height: 170,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF5F4621),
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/CI-VF-020.png',
+                                    ).image,
+                                  ),
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: Color(0xFF5F4621),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      16, 20, 16, 16),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'VegaFina Fortaleza 2',
+                                        textAlign: TextAlign.start,
+                                        style: FlutterFlowTheme.of(context)
+                                            .title3
+                                            .override(
+                                              fontFamily: 'Montserrat',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                      Expanded(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 5, 0, 8),
+                                          child: AutoSizeText(
+                                            'Toro - Box: 20 unidades\nIntensidade: Média\n',
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText2
+                                                .override(
+                                                  fontFamily: 'Montserrat',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryBtnText,
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            2, 2, 2, 2),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                await launchURL(
+                                                    'https://buy.stripe.com/aEUdRf1605d94IEdRb');
+                                              },
+                                              text: 'Comprar',
+                                              options: FFButtonOptions(
+                                                width: 100,
+                                                height: 40,
+                                                color: Color(0xFF5F4621),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          color: Colors.white,
+                                                          fontSize: 16,
+                                                          fontWeight:
+                                                              FontWeight.w600,
+                                                        ),
+                                                elevation: 2,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1,
+                                                ),
+                                                borderRadius: 10,
+                                              ),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Text(
+                                                  'R\$ 1.518,00',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1

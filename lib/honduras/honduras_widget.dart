@@ -18,14 +18,14 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class RepublicaDWidget extends StatefulWidget {
-  const RepublicaDWidget({Key key}) : super(key: key);
+class HondurasWidget extends StatefulWidget {
+  const HondurasWidget({Key key}) : super(key: key);
 
   @override
-  _RepublicaDWidgetState createState() => _RepublicaDWidgetState();
+  _HondurasWidgetState createState() => _HondurasWidgetState();
 }
 
-class _RepublicaDWidgetState extends State<RepublicaDWidget> {
+class _HondurasWidgetState extends State<HondurasWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override

@@ -1,23 +1,22 @@
-import '../arturo_fuente/arturo_fuente_widget.dart';
 import '../cartade_puros/cartade_puros_widget.dart';
+import '../florde_las_antillas/florde_las_antillas_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../republica_d/republica_d_widget.dart';
+import '../nicaragua/nicaragua_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class ArturoFuenteGranReservaSpanishLonsdaleWidget extends StatefulWidget {
-  const ArturoFuenteGranReservaSpanishLonsdaleWidget({Key key})
-      : super(key: key);
+class FlordeLasAntillasMaduroCoronaWidget extends StatefulWidget {
+  const FlordeLasAntillasMaduroCoronaWidget({Key key}) : super(key: key);
 
   @override
-  _ArturoFuenteGranReservaSpanishLonsdaleWidgetState createState() =>
-      _ArturoFuenteGranReservaSpanishLonsdaleWidgetState();
+  _FlordeLasAntillasMaduroCoronaWidgetState createState() =>
+      _FlordeLasAntillasMaduroCoronaWidgetState();
 }
 
-class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
-    extends State<ArturoFuenteGranReservaSpanishLonsdaleWidget> {
+class _FlordeLasAntillasMaduroCoronaWidgetState
+    extends State<FlordeLasAntillasMaduroCoronaWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -43,7 +42,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
           ),
         ),
         title: Text(
-          'Arturo Fuente',
+          'For de Las Antillas',
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Lexend Deca',
                 color: Colors.white,
@@ -71,7 +70,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                     topRight: Radius.circular(0),
                   ),
                   child: Image.asset(
-                    'assets/images/CI-AF-036-2.png',
+                    'assets/images/CI-FLA-006-2.png',
                     width: MediaQuery.of(context).size.width,
                     height: 350,
                     fit: BoxFit.cover,
@@ -86,7 +85,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                 children: [
                   Expanded(
                     child: Text(
-                      'Gran Reserva\nSpanish Lonsdale',
+                      'Maduro Corona',
                       style: FlutterFlowTheme.of(context).title2.override(
                             fontFamily: 'Montserrat',
                             color: Colors.white,
@@ -105,7 +104,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                 children: [
                   Expanded(
                     child: Text(
-                      'Box - 25 unidades',
+                      'Box - 20 unidades',
                       style: FlutterFlowTheme.of(context).subtitle2.override(
                             fontFamily: 'Montserrat',
                             color: Color(0xFFB5863F),
@@ -124,7 +123,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                 children: [
                   Expanded(
                     child: Text(
-                      'Blend\nCapa: Connecticut Shade\nCapote: Rep. Dominicana\nMiolo: Rep. Dominicana\nIntensidade: Suave-Médio\n\nBitola em Tamanhos\nPolegadas: 6 1/2 x 42\nMilímetros: 165mm x 42',
+                      'Blend\nCapa: Equador Habano\nCapote: Nicarágua\nMiolo: Nicarágua\nIntensidade: Médio-Forte\n\nBitola em Tamanhos\nPolegadas: 5 5/8 x 46\nMilímetros: 142mm x 46',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Montserrat',
                             color: FlutterFlowTheme.of(context).primaryBtnText,
@@ -162,7 +161,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                                       context,
                                       MaterialPageRoute(
                                         builder: (context) =>
-                                            ArturoFuenteWidget(),
+                                            FlordeLasAntillasWidget(),
                                       ),
                                     );
                                   },
@@ -174,7 +173,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                                       shape: BoxShape.circle,
                                     ),
                                     child: Image.asset(
-                                      'assets/images/site_logo-1.png',
+                                      'assets/images/Flor-de-Las-Antillas-by-My-Father.png',
                                       fit: BoxFit.contain,
                                     ),
                                   ),
@@ -206,7 +205,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                                   await Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => RepublicaDWidget(),
+                                      builder: (context) => NicaraguaWidget(),
                                     ),
                                   );
                                 },
@@ -218,7 +217,7 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
                                     shape: BoxShape.circle,
                                   ),
                                   child: Image.asset(
-                                    'assets/images/339186-alexfas01.jpg',
+                                    'assets/images/1562-flag-of-nicaragua.webp',
                                     fit: BoxFit.fitHeight,
                                   ),
                                 ),
@@ -258,9 +257,9 @@ class _ArturoFuenteGranReservaSpanishLonsdaleWidgetState
               padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 24),
               child: FFButtonWidget(
                 onPressed: () async {
-                  await launchURL('https://buy.stripe.com/7sI3cB5mgaxt8YU7sC');
+                  await launchURL('https://buy.stripe.com/8wM28xdSMcFBdfa9B7');
                 },
-                text: 'R\$ 2.310,00 + Frete',
+                text: 'R\$ 2.178,00 + Frete',
                 options: FFButtonOptions(
                   width: 300,
                   height: 60,
