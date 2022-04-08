@@ -1,11 +1,11 @@
-import '../arturo_fuente_gran_cazadores/arturo_fuente_gran_cazadores_widget.dart';
-import '../arturo_fuente_gran_chateau_cuban_belicoso/arturo_fuente_gran_chateau_cuban_belicoso_widget.dart';
-import '../arturo_fuente_gran_reserva_spanish_lonsdale/arturo_fuente_gran_reserva_spanish_lonsdale_widget.dart';
 import '../cartade_puros/cartade_puros_widget.dart';
 import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../perladel_mar_maduro_toro/perladel_mar_maduro_toro_widget.dart';
+import '../perladel_mar_shade_coron_gorda/perladel_mar_shade_coron_gorda_widget.dart';
+import '../perladel_mar_shade_robusto/perladel_mar_shade_robusto_widget.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -116,7 +116,7 @@ class _PerlaDelMarWidgetState extends State<PerlaDelMarWidget> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) =>
-                                      ArturoFuenteGranReservaSpanishLonsdaleWidget(),
+                                      PerladelMarShadeRobustoWidget(),
                                 ),
                               );
                             },
@@ -293,7 +293,7 @@ class _PerlaDelMarWidgetState extends State<PerlaDelMarWidget> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) =>
-                                      ArturoFuenteGranCazadoresWidget(),
+                                      PerladelMarMaduroToroWidget(),
                                 ),
                               );
                             },
@@ -470,7 +470,7 @@ class _PerlaDelMarWidgetState extends State<PerlaDelMarWidget> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) =>
-                                      ArturoFuenteGranChateauCubanBelicosoWidget(),
+                                      PerladelMarShadeCoronGordaWidget(),
                                 ),
                               );
                             },
@@ -584,7 +584,7 @@ class _PerlaDelMarWidgetState extends State<PerlaDelMarWidget> {
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  'R\$ 3.520,00',
+                                                  'R\$ 1.683,00',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1

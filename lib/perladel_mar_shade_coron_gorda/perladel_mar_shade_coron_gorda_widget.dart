@@ -64,7 +64,7 @@ class _PerladelMarShadeCoronGordaWidgetState
                     topRight: Radius.circular(0),
                   ),
                   child: Image.asset(
-                    'assets/images/CI-PDM-002-2.png',
+                    'assets/images/CI-PDM-004-2.png',
                     width: MediaQuery.of(context).size.width,
                     height: 350,
                     fit: BoxFit.cover,

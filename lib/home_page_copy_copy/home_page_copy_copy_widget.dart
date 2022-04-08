@@ -29,7 +29,7 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
     'containerOnActionTriggerAnimation1': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -44,7 +44,7 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
     'containerOnActionTriggerAnimation2': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -59,7 +59,7 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
     'containerOnActionTriggerAnimation3': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -74,7 +74,7 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
     'containerOnActionTriggerAnimation4': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -89,7 +89,7 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
     'containerOnActionTriggerAnimation5': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -104,7 +104,7 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
     'containerOnActionTriggerAnimation6': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -119,7 +119,7 @@ class _HomePageCopyCopyWidgetState extends State<HomePageCopyCopyWidget>
     'containerOnActionTriggerAnimation7': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,

@@ -33,8 +33,7 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
     'containerOnActionTriggerAnimation1': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
-      delay: 50,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -49,8 +48,7 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
     'containerOnActionTriggerAnimation2': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
-      delay: 50,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -65,8 +63,202 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
     'containerOnActionTriggerAnimation3': AnimationInfo(
       curve: Curves.elasticOut,
       trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
-      delay: 50,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation4': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation5': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation6': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation7': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation8': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation9': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation10': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation11': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation12': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation13': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation14': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation15': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
+      initialState: AnimationState(
+        offset: Offset(0, 2),
+        scale: 1,
+        opacity: 0,
+      ),
+      finalState: AnimationState(
+        offset: Offset(0, 0),
+        scale: 1,
+        opacity: 1,
+      ),
+    ),
+    'containerOnActionTriggerAnimation16': AnimationInfo(
+      curve: Curves.elasticOut,
+      trigger: AnimationTrigger.onActionTrigger,
+      duration: 50,
       initialState: AnimationState(
         offset: Offset(0, 2),
         scale: 1,
@@ -234,42 +426,49 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 10, 10, 10),
-                                          child: Material(
-                                            color: Colors.transparent,
-                                            elevation: 5,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10),
-                                            ),
-                                            child: Container(
-                                              width: double.infinity,
-                                              height: double.infinity,
-                                              decoration: BoxDecoration(
-                                                color: Color(0xFF25668D),
-                                                image: DecorationImage(
-                                                  fit: BoxFit.cover,
-                                                  image: Image.asset(
-                                                    'assets/images/bandeira-republica-dominicana.png',
-                                                  ).image,
+                                          child: InkWell(
+                                            onTap: () async {
+                                              await (animationsMap[
+                                                              'containerOnActionTriggerAnimation1']
+                                                          .curvedAnimation
+                                                          .parent
+                                                      as AnimationController)
+                                                  .forward(from: 0.0);
+
+                                              await Navigator.push(
+                                                context,
+                                                MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      RepublicaDWidget(),
                                                 ),
-                                                boxShadow: [
-                                                  BoxShadow(
-                                                    color: Colors.black,
-                                                  )
-                                                ],
+                                              );
+                                            },
+                                            child: Material(
+                                              color: Colors.transparent,
+                                              elevation: 5,
+                                              shape: RoundedRectangleBorder(
                                                 borderRadius:
                                                     BorderRadius.circular(10),
                                               ),
-                                              child: InkWell(
-                                                onTap: () async {
-                                                  await Navigator.push(
-                                                    context,
-                                                    MaterialPageRoute(
-                                                      builder: (context) =>
-                                                          RepublicaDWidget(),
-                                                    ),
-                                                  );
-                                                },
+                                              child: Container(
+                                                width: double.infinity,
+                                                height: double.infinity,
+                                                decoration: BoxDecoration(
+                                                  color: Color(0xFF25668D),
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image: Image.asset(
+                                                      'assets/images/bandeira-republica-dominicana.png',
+                                                    ).image,
+                                                  ),
+                                                  boxShadow: [
+                                                    BoxShadow(
+                                                      color: Colors.black,
+                                                    )
+                                                  ],
+                                                  borderRadius:
+                                                      BorderRadius.circular(10),
+                                                ),
                                                 child: Row(
                                                   mainAxisSize:
                                                       MainAxisSize.max,
@@ -339,37 +538,45 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     10, 10, 10, 10),
-                                            child: Material(
-                                              color: Colors.transparent,
-                                              elevation: 5,
-                                              shape: RoundedRectangleBorder(
-                                                borderRadius:
-                                                    BorderRadius.circular(10),
-                                              ),
-                                              child: Container(
-                                                width: double.infinity,
-                                                height: double.infinity,
-                                                decoration: BoxDecoration(
-                                                  color: Color(0xFF192A4D),
-                                                  image: DecorationImage(
-                                                    fit: BoxFit.cover,
-                                                    image: Image.asset(
-                                                      'assets/images/bandeira-da-nicaragua.png',
-                                                    ).image,
+                                            child: InkWell(
+                                              onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation2']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
+                                                await Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(
+                                                    builder: (context) =>
+                                                        NicaraguaWidget(),
                                                   ),
+                                                );
+                                              },
+                                              child: Material(
+                                                color: Colors.transparent,
+                                                elevation: 5,
+                                                shape: RoundedRectangleBorder(
                                                   borderRadius:
                                                       BorderRadius.circular(10),
                                                 ),
-                                                child: InkWell(
-                                                  onTap: () async {
-                                                    await Navigator.push(
-                                                      context,
-                                                      MaterialPageRoute(
-                                                        builder: (context) =>
-                                                            NicaraguaWidget(),
-                                                      ),
-                                                    );
-                                                  },
+                                                child: Container(
+                                                  width: double.infinity,
+                                                  height: double.infinity,
+                                                  decoration: BoxDecoration(
+                                                    color: Color(0xFF192A4D),
+                                                    image: DecorationImage(
+                                                      fit: BoxFit.cover,
+                                                      image: Image.asset(
+                                                        'assets/images/bandeira-da-nicaragua.png',
+                                                      ).image,
+                                                    ),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            10),
+                                                  ),
                                                   child: Row(
                                                     mainAxisSize:
                                                         MainAxisSize.max,
@@ -448,37 +655,44 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 10, 10, 10),
-                                          child: Material(
-                                            color: Colors.transparent,
-                                            elevation: 5,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10),
-                                            ),
-                                            child: Container(
-                                              width: double.infinity,
-                                              height: double.infinity,
-                                              decoration: BoxDecoration(
-                                                color: Color(0xFF192A4D),
-                                                image: DecorationImage(
-                                                  fit: BoxFit.cover,
-                                                  image: Image.asset(
-                                                    'assets/images/bandeira-de-honduras.png',
-                                                  ).image,
+                                          child: InkWell(
+                                            onTap: () async {
+                                              await (animationsMap[
+                                                              'containerOnActionTriggerAnimation3']
+                                                          .curvedAnimation
+                                                          .parent
+                                                      as AnimationController)
+                                                  .forward(from: 0.0);
+
+                                              await Navigator.push(
+                                                context,
+                                                MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      HondurasWidget(),
                                                 ),
+                                              );
+                                            },
+                                            child: Material(
+                                              color: Colors.transparent,
+                                              elevation: 5,
+                                              shape: RoundedRectangleBorder(
                                                 borderRadius:
                                                     BorderRadius.circular(10),
                                               ),
-                                              child: InkWell(
-                                                onTap: () async {
-                                                  await Navigator.push(
-                                                    context,
-                                                    MaterialPageRoute(
-                                                      builder: (context) =>
-                                                          HondurasWidget(),
-                                                    ),
-                                                  );
-                                                },
+                                              child: Container(
+                                                width: double.infinity,
+                                                height: double.infinity,
+                                                decoration: BoxDecoration(
+                                                  color: Color(0xFF192A4D),
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image: Image.asset(
+                                                      'assets/images/bandeira-de-honduras.png',
+                                                    ).image,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(10),
+                                                ),
                                                 child: Row(
                                                   mainAxisSize:
                                                       MainAxisSize.max,
@@ -650,6 +864,13 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                           children: [
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation4']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -682,9 +903,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation4']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation5']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -717,9 +948,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation5']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation6']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -752,9 +993,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation6']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation7']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -787,9 +1038,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation7']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation8']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -825,9 +1086,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                           0, 0),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation8']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation9']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -860,9 +1131,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation9']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation10']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -895,9 +1176,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation10']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation11']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -930,9 +1221,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation11']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation12']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -965,9 +1266,19 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation12']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation13']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+
                                                 await Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
@@ -1000,11 +1311,18 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation13']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
-                                                await launchURL(
-                                                    'https://www.instagram.com/melocigars/');
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation14']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
                                               },
                                               child: Container(
                                                 width: double.infinity,
@@ -1021,11 +1339,18 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                       BorderRadius.circular(10),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation14']
+                                            ]),
                                             InkWell(
                                               onTap: () async {
-                                                await launchURL(
-                                                    'https://www.instagram.com/lafamacigars/');
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation15']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
                                               },
                                               child: Container(
                                                 width: 100,
@@ -1042,7 +1367,10 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                       BorderRadius.circular(10),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation15']
+                                            ]),
                                             Container(
                                               width: 100,
                                               height: 100,
@@ -1052,22 +1380,26 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                     BorderRadius.circular(10),
                                               ),
                                             ),
-                                            Container(
-                                              width: 100,
-                                              height: 100,
-                                              decoration: BoxDecoration(
-                                                color: Color(0xFF081C44),
-                                                borderRadius:
-                                                    BorderRadius.circular(10),
-                                              ),
-                                              child: Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(5, 5, 5, 5),
-                                                child: InkWell(
-                                                  onTap: () async {
-                                                    await launchURL(
-                                                        'https://www.instagram.com/comandercigars/');
-                                                  },
+                                            InkWell(
+                                              onTap: () async {
+                                                await (animationsMap[
+                                                                'containerOnActionTriggerAnimation16']
+                                                            .curvedAnimation
+                                                            .parent
+                                                        as AnimationController)
+                                                    .forward(from: 0.0);
+                                              },
+                                              child: Container(
+                                                width: 100,
+                                                height: 100,
+                                                decoration: BoxDecoration(
+                                                  color: Color(0xFF081C44),
+                                                  borderRadius:
+                                                      BorderRadius.circular(10),
+                                                ),
+                                                child: Padding(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(5, 5, 5, 5),
                                                   child: Container(
                                                     width: 120,
                                                     height: 120,
@@ -1083,7 +1415,10 @@ class _CartadePurosWidgetState extends State<CartadePurosWidget>
                                                   ),
                                                 ),
                                               ),
-                                            ),
+                                            ).animated([
+                                              animationsMap[
+                                                  'containerOnActionTriggerAnimation16']
+                                            ]),
                                           ],
                                         ),
                                       ),
